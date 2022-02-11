@@ -1,0 +1,85 @@
+<!-- <div class="container">
+  <div class="row ">
+    <div class="jumbotron my-0 py-3 ">
+      <h1 class="font-weight-bold text-left">
+        User Management
+      </h1>
+    </div>
+    <div class="col-md-12  ">
+      <div class="mat-elevation-z8">
+        <table mat-table [dataSource]="dataSource"> -->
+
+          <!--- Note that these columns can be defined in any order.
+                      The actual rendered columns are set as a property on the row definition" -->
+
+          <!-- Position Column -->
+          <!-- <ng-container matColumnDef="position"> -->
+            <!-- <th mat-header-cell *matHeaderCellDef> No. </th>
+            <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+          </ng-container> -->
+
+          <!-- Name Column -->
+          <!-- <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+          </ng-container> -->
+
+          <!-- Weight Column -->
+          <!-- <ng-container matColumnDef="weight">
+            <th mat-header-cell *matHeaderCellDef> Weight </th>
+            <td mat-cell *matCellDef="let element"> {{element.weight}} </td>
+          </ng-container> -->
+
+          <!-- Symbol Column -->
+          <!-- <ng-container matColumnDef="symbol">
+            <th mat-header-cell *matHeaderCellDef> Symbol </th>
+            <td mat-cell *matCellDef="let element"> {{element.symbol}} </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons></mat-paginator>
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+  </div>
+</div> -->
+
+<div class="container">
+
+
+  <div class="row">
+      <div class="col-md-4">
+        <input *ngIf="config.filtering" placeholder="Filter all columns"
+               [ngTableFiltering]="config.filtering"
+               class="form-control"
+               (tableChanged)="onChangeTable(config)"/>
+      </div>
+    </div>
+    <br>
+    <ng-table [config]="config"
+              (tableChanged)="onChangeTable(config)"
+              (cellClicked)="onCellClick($event)"
+              [rows]="rows" [columns]="columns">
+    </ng-table>
+    <pagination *ngIf="config.paging"
+                class="pagination-sm"
+                [(ngModel)]="page"
+                [totalItems]="length"
+                [itemsPerPage]="itemsPerPage"
+                [maxSize]="maxSize"
+                [boundaryLinks]="true"
+                [rotate]="false"
+                (pageChanged)="onChangeTable(config, $event)"
+                (numPages)="numPages = $event">
+    </pagination>
+    <pre *ngIf="config.paging" class="card card-block card-header">Page: {{page}} / {{numPages}}</pre>
+    </div>

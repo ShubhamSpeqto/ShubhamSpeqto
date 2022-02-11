@@ -1,0 +1,36 @@
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="card">
+                <h2 class="card-title text-center font-weight-bold mt-3"> Period of trading</h2>
+                <div class="card-body py-md-4">
+                    <form [formGroup]="POTForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <label>Starting Date:</label>
+                            <input type="date" class="form-control" [ngModel]="BirthDate | date:'yyyy-MM-dd'"
+                                formControlName="starting">
+                        </div>
+
+                        <div class="form-group">
+                            <label>End Date:</label>
+                            <div class="form-group">
+                                <input type="date" class="form-control" [ngModel]="BirthDate | date:'yyyy-MM-dd'"
+                                    formControlName="Ending">
+                            </div>
+                        </div>
+                        <button type="submit" [disabled]="!POTForm.valid" class="btn btn-primary mr-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <h3>second way</h3>
+
+<mat-date-range-input [rangePicker]="picker">
+    <input matStartDate placeholder="Start date">
+    <input matEndDate placeholder="End date">
+  </mat-date-range-input>
+  
+  <mat-date-range-picker #picker></mat-date-range-picker> -->

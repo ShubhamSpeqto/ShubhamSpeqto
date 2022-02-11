@@ -1,0 +1,22 @@
+/* #secondrow{
+    justify-content: space-around !important;
+} */
+.row{
+    justify-content: space-evenly;
+}
+.jumbotron{
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h3,label{
+    font-family: 'Montserrat', sans-serif;
+}
+.card{
+    box-shadow: 5px 10px 15px #888888;
+}
+::ng-deep .mat-tab-header{
+    border-bottom: 0 !important;
+}
+::ng-deep .mat-tab-body-wrapper{
+    margin-top: 1.5rem !important;
+}

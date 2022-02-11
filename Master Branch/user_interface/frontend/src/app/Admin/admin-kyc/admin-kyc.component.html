@@ -1,0 +1,32 @@
+<h1 class="text-center fong-weight-bold">Kyc Form</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <!-- <th scope="col">#</th> -->
+            <th scope="col">Card Number</th>
+            <th scope="col">Id Number</th>
+            <th scope="col">Pic</th>
+            <th scope="col">Bank Acc no.</th>
+            <th scope="col">Bank Statement</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of collection">
+            <!-- <th scope="row">1</th> -->
+            <td>{{item.card}}</td>
+            <td>{{item.id}}</td>
+            <td>{{item.pic}}</td>
+            <td>{{item.bankaccount}}</td>
+            <td>{{item.statement}}</td>
+
+
+            <button (click)="approve(item.card)" id="" type="button" class="btn btn-success">Approve &#10003;</button>
+            &nbsp;
+            <button (click)="disapprove(item.card)" type="button" class="btn btn-danger">Disapprove &#10005;</button>
+        </tr>
+
+
+
+    </tbody>
+</table>

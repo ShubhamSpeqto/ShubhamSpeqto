@@ -1,0 +1,150 @@
+<div>
+  <mat-toolbar *ngIf="showHead">
+    <img class="logoimage" src="../../../assets/pic/loginpic/Logo.png" alt="">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" mat-button
+      (click)="toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    
+    <span>Pirate ArbBot</span>
+    <span class="example-spacer"></span>
+    
+    <span></span>
+    <img class="logoimage" mat-card-avatar src="../../../assets/pic/icons/user.png" alt="User Avatar">
+    <span class="text-primary">{{username}}</span>
+    <button mat-button [matMenuTriggerFor]="beforeMenu"><mat-icon>keyboard_arrow_down</mat-icon></button>
+  <mat-menu #beforeMenu="matMenu" xPosition="before">
+    <button mat-menu-item (click)="logout()">Log Out</button>
+    
+  </mat-menu>
+  </mat-toolbar>
+
+
+  <mat-sidenav-container class="example-container">
+    <mat-sidenav *ngIf="showHead" #sidenav [opened]="isSignedIn" mode="side" class="sidenav">
+
+      <div [@childAnimation]="isOpen ? 'open' : 'closed'" class="open-close-container">
+        <mat-nav-list>
+
+          <mat-list-item [ngClass]={active:dashboard}
+            (click)="user=false;dashboard = true;user-profile = false;">
+            <a matLine [routerLink]="['dashboard']">
+              <mat-icon><img src="../../../assets/Icon/dashboard (2) 1.svg" class="w-100" alt=""></mat-icon> <span
+                *ngIf="isOpen">&nbsp; Dashboard</span>
+            </a>
+          </mat-list-item>
+          <mat-accordion>
+            <mat-list-item [ngClass]={active:user-profile}
+              (click)="user=false;dashboard = false;user-profile = true;">
+              <a matLine [routerLink]="['user-profile']">
+                <mat-icon><img src="../../../assets/Icon/user1.svg" class="w-100" alt=""></mat-icon> <span
+                  *ngIf="isOpen">&nbsp; User Profile</span>
+              </a>
+            </mat-list-item>
+            <mat-list-item [ngClass]={active:order-engine}
+              (click)="user=false;dashboard = false;user-profile = false;order-engine = true;">
+              <a matLine [routerLink]="['order-engine']">
+                <mat-icon><img src="../../../assets/Icon/order.jpg  " class="w-100" alt=""></mat-icon> <span
+                  *ngIf="isOpen">&nbsp; Order Engine</span>
+              </a>
+            </mat-list-item>
+          <!-- <mat-accordion> -->
+
+            <!-- <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <mat-icon><img src="../../../assets/Icon/user (1) (1) 1.svg" class="w-100" alt=""></mat-icon> <span *ngIf="isOpen">&nbsp; User
+                    Management</span>
+                </mat-panel-title>
+
+              </mat-expansion-panel-header>
+              
+              <mat-list-item [ngClass]={active:sign-up}
+                (click)="user=false;dashboard = false;kyc= true;role=false;prime=false;mam=false;reports=false;performance=false; Assignment=false;clients=false">
+                <a matLine [routerLink]="['sign-up']">
+                  <mat-icon><img src="../../../assets/Icon/Group (1).svg" class="w-100" alt=""></mat-icon> <span
+                    *ngIf="isOpen">&nbsp; Create User</span>
+                </a>
+              </mat-list-item>
+              <mat-list-item [ngClass]={active:user}
+                (click)="user=true; dashboard = false;kyc= false;role=false;prime=false;mam=false;reports=false;performance=false; Assignment=false;clients=false">
+                <a matLine [routerLink]="['user-list']">
+                  <mat-icon><img src="../../../assets/Icon/Group (1).svg" class="w-100" alt=""></mat-icon> <span
+                    *ngIf="isOpen">&nbsp;  User Listing</span>
+                </a>
+              </mat-list-item>
+              <mat-list-item [ngClass]={active:kyc}
+                (click)="user=false;dashboard = false;kyc= true;role=false;prime=false;mam=false;reports=false;performance=false; Assignment=false;clients=false">
+                <a matLine [routerLink]="['user-kyc-list']">
+                  <mat-icon><img src="../../../assets/Icon/exam (1) 1.svg" class="w-100" alt=""></mat-icon> <span
+                    *ngIf="isOpen">&nbsp; KYC Management</span>
+                </a>
+              </mat-list-item>
+              <mat-list-item [ngClass]={active:role}
+                (click)="user=false;dashboard = false;kyc= false;role=true;prime=false;mam=false;reports=false;performance=false; Assignment=false;clients=false">
+                <a matLine>
+                  <mat-icon><img src="../../../assets/Icon/user (1) (1) 1.svg" class="w-100" alt=""></mat-icon> <span
+                    *ngIf="isOpen">&nbsp; User Role Management</span>
+                </a>
+              </mat-list-item>
+            </mat-expansion-panel> -->
+            <!-- <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <mat-icon><img src="../../../assets/Icon/wireless-1.svg" class="w-100" alt="">
+                  </mat-icon> <span *ngIf="isOpen">&nbsp; Pool Management</span>
+                </mat-panel-title>
+
+              </mat-expansion-panel-header>
+              <mat-list-item [ngClass]={active:prime}
+                (click)="user=false;dashboard = false;kyc= false;role=false;prime=true;mam=false;reports=false;performance=false; Assignment=false;clients=false">
+                <a matLine>
+                  <mat-icon></mat-icon> <span *ngIf="isOpen">&nbsp; Prime Pool</span>
+                </a>
+              </mat-list-item>
+              <mat-list-item [ngClass]={active:mam}
+                (click)="user=false;dashboard = false;kyc= false;role=false;prime=false;mam=true;reports=false;performance=false; Assignment=false;clients=false">
+                <a matLine>
+                  <mat-icon></mat-icon> <span *ngIf="isOpen">&nbsp; Mam Pool</span>
+                </a>
+              </mat-list-item>
+            </mat-expansion-panel> -->
+          </mat-accordion>
+
+          <!-- <mat-list-item [ngClass]={active:reports}
+            (click)="user=false;dashboard = false;kyc= false;role=false;prime=false;mam=false;reports=true;performance=false; Assignment=false;clients=false">
+            <a matLine>
+              <mat-icon><img src="../../../assets/Icon/exam (1) 1.svg" class="w-100" alt=""></mat-icon> <span
+                *ngIf="isOpen">&nbsp; Reports</span>
+            </a>
+          </mat-list-item>
+          <mat-list-item [ngClass]={active:performance}
+            (click)="user=false;dashboard = false;kyc= false;role=false;prime=false;mam=false;reports=false;performance=true; Assignment=false;clients=false">
+            <a matLine>
+              <mat-icon><img src="../../../assets/Icon/transaction (1) (1) 1.svg" class="w-100" alt=""></mat-icon> <span
+                *ngIf="isOpen">&nbsp; Performance Fee</span>
+            </a>
+          </mat-list-item>
+          <mat-list-item [ngClass]={active:Assignment}
+            (click)="user=false;dashboard = false;kyc= false;role=false;prime=false;mam=false;reports=false;performance=false; Assignment=true;clients=false">
+            <a matLine [routerLink]="['assignment-list']">
+              <mat-icon><img src="../../../assets/Icon/question (1) 1.svg" class="w-100" alt=""></mat-icon> <span
+                *ngIf="isOpen">&nbsp; Assignment</span>
+            </a>
+          </mat-list-item> -->
+          <!-- <mat-list-item [ngClass]={active:clients}
+            (click)="user=false;dashboard = false;kyc= false;role=false;prime=false;mam=false;reports=false;performance=false; Assignment=false;clients=true">
+            <a matLine>
+              <mat-icon><img src="../../../assets/Icon/Group (1).svg" class="w-100" alt=""></mat-icon> <span
+                *ngIf="isOpen">&nbsp; Clients</span>
+            </a>
+          </mat-list-item> -->
+        </mat-nav-list>
+      </div>
+    </mat-sidenav>
+
+    <!-- <mat-sidenav-content [ngClass]=" {'content' : isSignedIn}"> -->
+      <ng-content></ng-content>
+    <!-- </mat-sidenav-content> -->
+  </mat-sidenav-container>
+</div>

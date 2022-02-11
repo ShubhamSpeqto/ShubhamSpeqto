@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-lg navbar-light justify-content-center pt-0">
+    <div class="logo text-center ">
+        <!-- <h1>cat</h1> -->
+        <img src="../../../assets/pic/loginpic/Logo.png" class="w-50" alt="">
+    </div>
+</nav>
+<div class="container-fluid " id="login-first">
+    <div class="row justify-content-end">
+
+        <div class="col-md-2 ml-4">
+            <!-- <h1 class="text-warning font-weight-bold mb-0">
+                Pirate ArbBot
+            </h1> -->
+            <!-- <h4 class="text-secondary">Delivery The True Value</h4> -->
+        </div>
+        <div class="col">
+            <img src="../../../assets/pic/loginpic/Logo.png" class="w-100" alt="">
+        </div>
+        <div class="col-lg-4 mr-5 margin-auto">
+            
+            <div class="card px-4">
+                <div class="card-body py-md-4">
+
+                    <h2 class="login_title text-center mb-0 pb-3"> Log In</h2>
+                    <!-- <form _lpchecked="1" [formGroup]="kycForm" (ngSubmit)="onSubmit()"> -->
+                    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="font-weight-bold">E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email"
+                                formControlName="username">
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="font-weight-bold">Password</label>
+                            <div class="input-group-append">
+                                <input [type]="show_button ? 'text' : 'password'" class="form-control"
+                                    placeholder="Password" formControlName="password">
+                                <!-- </div> -->
+
+                                <i [class]="show_eye ? 'fa fa-eye' : 'fa fa-eye-slash'" (click)="showPassword()" id="eye">
+                                </i>
+                            </div>
+                            <!-- </div> -->
+
+
+                        </div>
+
+
+                        <div class="col-12 text-right" id="loginbutton">
+
+                            <button type="submit" [disabled]="!loginForm.valid" class="btn px-3 my-4 btn-primary">Log
+                                In</button>
+                            <!-- <button [routerLink]="['/sign-up-itself']" routerLinkActive="router-link-active" type="submit" class="btn px-3 my-4 mx-3 btn-primary">Sign-up</button> -->
+                        </div>
+
+                        <div class="form-group text-center" id="forgotpassword">
+                            <a [routerLink]="['/sign-up-itself']" routerLinkActive="router-link-active"> create New
+                                Account &nbsp;</a>
+                            <a [routerLink]="['/forgot-password']" routerLinkActive="router-link-active">&nbsp; Forgot
+                                Password ?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

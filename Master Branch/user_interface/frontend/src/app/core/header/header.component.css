@@ -1,0 +1,41 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.content{
+    margin-left: 100px !important;
+}
+.sidenav{
+  background-color:#080D68;
+  color:white;
+}
+
+.mat-list-base .mat-list-item{
+  color: white !important;
+
+}
+.icon {
+  padding:12px;
+}
+.mat-expansion-panel{
+  background: none;
+  /* color: white !important; */
+}
+.mat-expansion-panel-header-title{
+  color: white !important;
+}
+::ng-deep .mat-expansion-indicator::after, .mat-expansion-panel-header-description{
+  color: rgb(251 247 247 / 55%);
+}
+.active{
+  background: #3379FF;
+}
+
+.mat-action-list .mat-list-item:focus, .mat-action-list .mat-list-item:hover, .mat-list-option:focus, .mat-list-option:hover, .mat-nav-list .mat-list-item:focus, .mat-nav-list .mat-list-item:hover{
+  background: #3379FF;
+}
+.mat-list-base .mat-list-item, .mat-list-base .mat-list-option{
+  border-radius: 10px;
+}
+.logoimage{
+  width:4%;
+}

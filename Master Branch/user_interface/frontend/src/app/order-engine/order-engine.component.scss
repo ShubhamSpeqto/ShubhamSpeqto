@@ -1,0 +1,149 @@
+.tutor-profile-main-container {
+	border: 1px solid #fafafa;
+	min-height: 600px;
+	background: #fafafa;
+	
+}
+select{
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+.container{
+height: 100vh;
+}
+select option{
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+h3.bloc_sort_about {
+	font-size: 18px;
+	color: #ed1c24;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 30px;
+}
+.reason-area{
+    height: 120px;
+    margin-top: 20px;
+    width: 300px;
+}
+.first-row{
+    margin-top: 20px;
+}
+
+.hideInput{
+    display: none;
+}
+.bloc_sort_about span {
+	width: 12px;
+	height: 12px;
+	background-color: #ff1c1c;
+	display: inline-block;
+	margin: 1px 6px;
+	border-radius: 3px;
+}
+
+#msform {
+	margin: auto;
+	text-align: center;
+    position: relative;
+    padding-top: 27px;
+}
+
+#msform .profile-form {
+	background: white;
+	border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.16);
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    border-bottom: 3px solid  #0E1E67;
+	padding: 61px 40px;
+	margin-bottom: 30px;
+    margin-bottom: 30px;
+
+}
+.img.uplodedimage {
+    width: 122px;
+    height: 122px;
+    border-radius: 100px;
+}
+
+#msform input,
+#msform textarea {
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+.student-profile-pic{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.col-md-4.profile-name-align {
+    text-align: left;
+}
+.selectImg-Text{
+    cursor: pointer;
+}
+.student-img{
+	width: 122px;
+    height: 122px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 12px;
+    border-radius: 100px;
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.16);
+	margin-top: -40px;
+
+}
+img.uplodedimage.ng-star-inserted {
+    border-radius: 100px;
+    height: 122px;
+}
+.form-control {
+	height: 40px !important;
+	color: black;
+	font-size: 14px !important;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+
+}
+.phoneCode-input {
+	border: 1px solid#ced4da;
+	width: 50px;
+	height: 39px;
+	border-radius: 3px;
+	padding-top: 8px;
+	font-size: 14px;
+
+}
+.role-submit-btn {
+	padding: 2px 25px;
+	background: linear-gradient(to bottom, #b9181e 0%, #db4343 100%);
+	color: #fff;
+	border: none;
+	margin: 10px;
+}
+
+.photo {
+    padding-top: 18px;
+}
+img.profileImg {
+    height: 68px;
+    padding-top: 7px;
+}
+.commonFooter{
+    width: 96%;
+    margin: auto;
+}
+.alert.alert-danger.mobile-Number-box{
+    margin-top: 39px;
+    margin-left: 15px;
+}
+.input_width{
+	width: 100%;
+}

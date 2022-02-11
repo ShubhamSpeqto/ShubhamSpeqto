@@ -1,0 +1,10 @@
+{
+    "database": {
+        "host": "18.215.193.111",
+        "port": 3306,
+        "user": "root",
+        "password": "mgWE33dISLWUT",
+        "database": "pirate_arbbot"
+    },
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}

@@ -1,0 +1,1356 @@
+2021-12-10 15:35:27,851 [INFO] __main__ : granularities
+2021-12-10 15:35:27,851 [INFO] __main__ : dict_keys(['S5', 'S10', 'S15', 'S30', 'M1', 'M2', 'M4', 'M5', 'M10', 'M15', 'M30', 'H1', 'H2', 'H3', 'H4', 'H6', 'H8', 'H12', 'D', 'W', 'M'])
+2022-01-27 18:20:34,898 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:24:54,141 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:25:28,384 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:25:38,170 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:26:16,765 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:26:28,629 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:27:30,841 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:28:29,248 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:28:29,249 [INFO] oandapyV20.oandapyV20 : setting up API-client for environment practice
+2022-01-27 18:28:29,249 [INFO] __main__ : PriceTable __init__ executed
+2022-01-27 18:28:29,249 [INFO] __main__ : self.instrument value
+2022-01-27 18:28:29,249 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,249 [INFO] __main__ : self.granularity value
+2022-01-27 18:28:29,250 [INFO] __main__ : S5
+2022-01-27 18:28:29,250 [INFO] __main__ : self.pt value initilized
+2022-01-27 18:28:29,250 [INFO] __main__ : MAx __init__ executed
+2022-01-27 18:28:29,250 [INFO] __main__ : pt value
+2022-01-27 18:28:29,250 [INFO] __main__ : <__main__.PriceTable object at 0x7f0c7f2943a0>
+2022-01-27 18:28:29,250 [INFO] __main__ : smaPeriod value
+2022-01-27 18:28:29,250 [INFO] __main__ : 10
+2022-01-27 18:28:29,250 [INFO] __main__ : lmaPeriod value
+2022-01-27 18:28:29,250 [INFO] __main__ : 20
+2022-01-27 18:28:29,250 [INFO] __main__ : Indicator __init__ executed
+2022-01-27 18:28:29,250 [INFO] __main__ : pt value
+2022-01-27 18:28:29,250 [INFO] __main__ : <__main__.PriceTable object at 0x7f0c7f2943a0>
+2022-01-27 18:28:29,250 [INFO] __main__ : setHandler executed
+2022-01-27 18:28:29,251 [INFO] __main__ : name value
+2022-01-27 18:28:29,251 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,251 [INFO] __main__ : f value
+2022-01-27 18:28:29,251 [INFO] __main__ : <bound method MAx.calculate of <__main__.MAx object at 0x7f0c7f2944c0>>
+2022-01-27 18:28:29,251 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,251 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,251 [INFO] __main__ : Event: adding handler: calculate
+2022-01-27 18:28:29,251 [INFO] oandapyV20.oandapyV20 : performing request https://api-fxpractice.oanda.com/v3/instruments/EUR_USD/candles
+2022-01-27 18:28:29,780 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,780 [INFO] __main__ : dt value
+2022-01-27 18:28:29,780 [INFO] __main__ : 2022-01-27T12:56:50.000000000Z
+2022-01-27 18:28:29,780 [INFO] __main__ : c value
+2022-01-27 18:28:29,780 [INFO] __main__ : 1.11618
+2022-01-27 18:28:29,780 [INFO] __main__ : v value
+2022-01-27 18:28:29,780 [INFO] __main__ : 4
+2022-01-27 18:28:29,781 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,781 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,781 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,781 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,781 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,781 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,781 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,781 [INFO] __main__ : idx value
+2022-01-27 18:28:29,781 [INFO] __main__ : 1
+2022-01-27 18:28:29,781 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,781 [INFO] __main__ : None
+2022-01-27 18:28:29,781 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,781 [INFO] __main__ : dt value
+2022-01-27 18:28:29,781 [INFO] __main__ : 2022-01-27T12:56:55.000000000Z
+2022-01-27 18:28:29,782 [INFO] __main__ : c value
+2022-01-27 18:28:29,782 [INFO] __main__ : 1.11618
+2022-01-27 18:28:29,782 [INFO] __main__ : v value
+2022-01-27 18:28:29,782 [INFO] __main__ : 8
+2022-01-27 18:28:29,782 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,782 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,782 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,782 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,782 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,782 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,782 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,782 [INFO] __main__ : idx value
+2022-01-27 18:28:29,783 [INFO] __main__ : 2
+2022-01-27 18:28:29,783 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,783 [INFO] __main__ : None
+2022-01-27 18:28:29,783 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,783 [INFO] __main__ : dt value
+2022-01-27 18:28:29,783 [INFO] __main__ : 2022-01-27T12:57:00.000000000Z
+2022-01-27 18:28:29,784 [INFO] __main__ : c value
+2022-01-27 18:28:29,784 [INFO] __main__ : 1.11614
+2022-01-27 18:28:29,784 [INFO] __main__ : v value
+2022-01-27 18:28:29,784 [INFO] __main__ : 15
+2022-01-27 18:28:29,784 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,784 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,784 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,784 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,784 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,784 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,784 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,784 [INFO] __main__ : idx value
+2022-01-27 18:28:29,784 [INFO] __main__ : 3
+2022-01-27 18:28:29,785 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,785 [INFO] __main__ : None
+2022-01-27 18:28:29,785 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,785 [INFO] __main__ : dt value
+2022-01-27 18:28:29,785 [INFO] __main__ : 2022-01-27T12:57:05.000000000Z
+2022-01-27 18:28:29,785 [INFO] __main__ : c value
+2022-01-27 18:28:29,785 [INFO] __main__ : 1.1161
+2022-01-27 18:28:29,785 [INFO] __main__ : v value
+2022-01-27 18:28:29,785 [INFO] __main__ : 3
+2022-01-27 18:28:29,785 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,785 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,785 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,785 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,785 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,786 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,786 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,786 [INFO] __main__ : idx value
+2022-01-27 18:28:29,786 [INFO] __main__ : 4
+2022-01-27 18:28:29,786 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,786 [INFO] __main__ : None
+2022-01-27 18:28:29,786 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,786 [INFO] __main__ : dt value
+2022-01-27 18:28:29,786 [INFO] __main__ : 2022-01-27T12:57:10.000000000Z
+2022-01-27 18:28:29,786 [INFO] __main__ : c value
+2022-01-27 18:28:29,786 [INFO] __main__ : 1.11607
+2022-01-27 18:28:29,786 [INFO] __main__ : v value
+2022-01-27 18:28:29,786 [INFO] __main__ : 13
+2022-01-27 18:28:29,786 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,787 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,787 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,787 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,787 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,787 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,787 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,787 [INFO] __main__ : idx value
+2022-01-27 18:28:29,787 [INFO] __main__ : 5
+2022-01-27 18:28:29,787 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,787 [INFO] __main__ : None
+2022-01-27 18:28:29,787 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,787 [INFO] __main__ : dt value
+2022-01-27 18:28:29,788 [INFO] __main__ : 2022-01-27T12:57:15.000000000Z
+2022-01-27 18:28:29,788 [INFO] __main__ : c value
+2022-01-27 18:28:29,788 [INFO] __main__ : 1.11606
+2022-01-27 18:28:29,788 [INFO] __main__ : v value
+2022-01-27 18:28:29,788 [INFO] __main__ : 7
+2022-01-27 18:28:29,788 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,788 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,788 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,788 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,788 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,788 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,788 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,789 [INFO] __main__ : idx value
+2022-01-27 18:28:29,789 [INFO] __main__ : 6
+2022-01-27 18:28:29,789 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,789 [INFO] __main__ : None
+2022-01-27 18:28:29,789 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,789 [INFO] __main__ : dt value
+2022-01-27 18:28:29,789 [INFO] __main__ : 2022-01-27T12:57:20.000000000Z
+2022-01-27 18:28:29,789 [INFO] __main__ : c value
+2022-01-27 18:28:29,789 [INFO] __main__ : 1.11605
+2022-01-27 18:28:29,789 [INFO] __main__ : v value
+2022-01-27 18:28:29,789 [INFO] __main__ : 8
+2022-01-27 18:28:29,789 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,789 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,789 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,790 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,790 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,790 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,790 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,790 [INFO] __main__ : idx value
+2022-01-27 18:28:29,790 [INFO] __main__ : 7
+2022-01-27 18:28:29,790 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,790 [INFO] __main__ : None
+2022-01-27 18:28:29,790 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,790 [INFO] __main__ : dt value
+2022-01-27 18:28:29,790 [INFO] __main__ : 2022-01-27T12:57:25.000000000Z
+2022-01-27 18:28:29,790 [INFO] __main__ : c value
+2022-01-27 18:28:29,790 [INFO] __main__ : 1.11604
+2022-01-27 18:28:29,791 [INFO] __main__ : v value
+2022-01-27 18:28:29,791 [INFO] __main__ : 5
+2022-01-27 18:28:29,791 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,791 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,791 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,791 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,791 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,791 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,791 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,791 [INFO] __main__ : idx value
+2022-01-27 18:28:29,791 [INFO] __main__ : 8
+2022-01-27 18:28:29,791 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,791 [INFO] __main__ : None
+2022-01-27 18:28:29,792 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,792 [INFO] __main__ : dt value
+2022-01-27 18:28:29,792 [INFO] __main__ : 2022-01-27T12:57:30.000000000Z
+2022-01-27 18:28:29,792 [INFO] __main__ : c value
+2022-01-27 18:28:29,792 [INFO] __main__ : 1.1159
+2022-01-27 18:28:29,792 [INFO] __main__ : v value
+2022-01-27 18:28:29,792 [INFO] __main__ : 18
+2022-01-27 18:28:29,792 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,792 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,792 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,792 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,792 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,792 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,792 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,792 [INFO] __main__ : idx value
+2022-01-27 18:28:29,793 [INFO] __main__ : 9
+2022-01-27 18:28:29,793 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,793 [INFO] __main__ : None
+2022-01-27 18:28:29,793 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,793 [INFO] __main__ : dt value
+2022-01-27 18:28:29,793 [INFO] __main__ : 2022-01-27T12:57:35.000000000Z
+2022-01-27 18:28:29,793 [INFO] __main__ : c value
+2022-01-27 18:28:29,793 [INFO] __main__ : 1.11583
+2022-01-27 18:28:29,793 [INFO] __main__ : v value
+2022-01-27 18:28:29,793 [INFO] __main__ : 10
+2022-01-27 18:28:29,793 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,793 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,794 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,794 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,794 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,794 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,794 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,794 [INFO] __main__ : idx value
+2022-01-27 18:28:29,794 [INFO] __main__ : 10
+2022-01-27 18:28:29,794 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,794 [INFO] __main__ : None
+2022-01-27 18:28:29,794 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,794 [INFO] __main__ : dt value
+2022-01-27 18:28:29,794 [INFO] __main__ : 2022-01-27T12:57:40.000000000Z
+2022-01-27 18:28:29,794 [INFO] __main__ : c value
+2022-01-27 18:28:29,795 [INFO] __main__ : 1.11587
+2022-01-27 18:28:29,795 [INFO] __main__ : v value
+2022-01-27 18:28:29,795 [INFO] __main__ : 21
+2022-01-27 18:28:29,795 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,795 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,795 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,795 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,795 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,795 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,795 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,795 [INFO] __main__ : idx value
+2022-01-27 18:28:29,795 [INFO] __main__ : 11
+2022-01-27 18:28:29,795 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,795 [INFO] __main__ : None
+2022-01-27 18:28:29,795 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,795 [INFO] __main__ : dt value
+2022-01-27 18:28:29,796 [INFO] __main__ : 2022-01-27T12:57:45.000000000Z
+2022-01-27 18:28:29,796 [INFO] __main__ : c value
+2022-01-27 18:28:29,796 [INFO] __main__ : 1.11591
+2022-01-27 18:28:29,796 [INFO] __main__ : v value
+2022-01-27 18:28:29,796 [INFO] __main__ : 7
+2022-01-27 18:28:29,796 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,796 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,796 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,796 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,796 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,796 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,796 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,796 [INFO] __main__ : idx value
+2022-01-27 18:28:29,796 [INFO] __main__ : 12
+2022-01-27 18:28:29,796 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,796 [INFO] __main__ : None
+2022-01-27 18:28:29,796 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,796 [INFO] __main__ : dt value
+2022-01-27 18:28:29,796 [INFO] __main__ : 2022-01-27T12:57:50.000000000Z
+2022-01-27 18:28:29,796 [INFO] __main__ : c value
+2022-01-27 18:28:29,797 [INFO] __main__ : 1.11592
+2022-01-27 18:28:29,797 [INFO] __main__ : v value
+2022-01-27 18:28:29,797 [INFO] __main__ : 9
+2022-01-27 18:28:29,797 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,797 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,797 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,797 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,797 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,797 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,797 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,797 [INFO] __main__ : idx value
+2022-01-27 18:28:29,797 [INFO] __main__ : 13
+2022-01-27 18:28:29,797 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,797 [INFO] __main__ : None
+2022-01-27 18:28:29,797 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,797 [INFO] __main__ : dt value
+2022-01-27 18:28:29,797 [INFO] __main__ : 2022-01-27T12:57:55.000000000Z
+2022-01-27 18:28:29,797 [INFO] __main__ : c value
+2022-01-27 18:28:29,797 [INFO] __main__ : 1.11595
+2022-01-27 18:28:29,798 [INFO] __main__ : v value
+2022-01-27 18:28:29,798 [INFO] __main__ : 8
+2022-01-27 18:28:29,798 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,798 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,798 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,798 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,798 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,798 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,798 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,798 [INFO] __main__ : idx value
+2022-01-27 18:28:29,798 [INFO] __main__ : 14
+2022-01-27 18:28:29,798 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,798 [INFO] __main__ : None
+2022-01-27 18:28:29,798 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,799 [INFO] __main__ : dt value
+2022-01-27 18:28:29,799 [INFO] __main__ : 2022-01-27T12:58:00.000000000Z
+2022-01-27 18:28:29,799 [INFO] __main__ : c value
+2022-01-27 18:28:29,799 [INFO] __main__ : 1.11592
+2022-01-27 18:28:29,799 [INFO] __main__ : v value
+2022-01-27 18:28:29,799 [INFO] __main__ : 4
+2022-01-27 18:28:29,799 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,799 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,799 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,799 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,799 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,799 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,800 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,800 [INFO] __main__ : idx value
+2022-01-27 18:28:29,800 [INFO] __main__ : 15
+2022-01-27 18:28:29,800 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,800 [INFO] __main__ : None
+2022-01-27 18:28:29,800 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,800 [INFO] __main__ : dt value
+2022-01-27 18:28:29,800 [INFO] __main__ : 2022-01-27T12:58:05.000000000Z
+2022-01-27 18:28:29,800 [INFO] __main__ : c value
+2022-01-27 18:28:29,800 [INFO] __main__ : 1.11586
+2022-01-27 18:28:29,800 [INFO] __main__ : v value
+2022-01-27 18:28:29,800 [INFO] __main__ : 9
+2022-01-27 18:28:29,800 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,800 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,800 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,800 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,801 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,801 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,801 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,801 [INFO] __main__ : idx value
+2022-01-27 18:28:29,801 [INFO] __main__ : 16
+2022-01-27 18:28:29,801 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,801 [INFO] __main__ : None
+2022-01-27 18:28:29,801 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,801 [INFO] __main__ : dt value
+2022-01-27 18:28:29,801 [INFO] __main__ : 2022-01-27T12:58:10.000000000Z
+2022-01-27 18:28:29,801 [INFO] __main__ : c value
+2022-01-27 18:28:29,801 [INFO] __main__ : 1.11586
+2022-01-27 18:28:29,801 [INFO] __main__ : v value
+2022-01-27 18:28:29,801 [INFO] __main__ : 2
+2022-01-27 18:28:29,801 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,801 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,802 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,802 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,802 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,802 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,802 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,802 [INFO] __main__ : idx value
+2022-01-27 18:28:29,802 [INFO] __main__ : 17
+2022-01-27 18:28:29,802 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,802 [INFO] __main__ : None
+2022-01-27 18:28:29,802 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,802 [INFO] __main__ : dt value
+2022-01-27 18:28:29,802 [INFO] __main__ : 2022-01-27T12:58:15.000000000Z
+2022-01-27 18:28:29,802 [INFO] __main__ : c value
+2022-01-27 18:28:29,802 [INFO] __main__ : 1.11586
+2022-01-27 18:28:29,803 [INFO] __main__ : v value
+2022-01-27 18:28:29,803 [INFO] __main__ : 6
+2022-01-27 18:28:29,803 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,803 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,803 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,803 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,803 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,803 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,803 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,803 [INFO] __main__ : idx value
+2022-01-27 18:28:29,803 [INFO] __main__ : 18
+2022-01-27 18:28:29,803 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,803 [INFO] __main__ : None
+2022-01-27 18:28:29,804 [INFO] __main__ : addItem executed
+2022-01-27 18:28:29,804 [INFO] __main__ : dt value
+2022-01-27 18:28:29,804 [INFO] __main__ : 2022-01-27T12:58:20.000000000Z
+2022-01-27 18:28:29,804 [INFO] __main__ : c value
+2022-01-27 18:28:29,804 [INFO] __main__ : 1.11581
+2022-01-27 18:28:29,804 [INFO] __main__ : v value
+2022-01-27 18:28:29,804 [INFO] __main__ : 6
+2022-01-27 18:28:29,804 [INFO] __main__ : instrument value
+2022-01-27 18:28:29,804 [INFO] __main__ : EUR_USD
+2022-01-27 18:28:29,804 [INFO] __main__ : self.idx value
+2022-01-27 18:28:29,804 [INFO] __main__ : fireEvent call
+2022-01-27 18:28:29,804 [INFO] __main__ : fireEvent name
+2022-01-27 18:28:29,804 [INFO] __main__ : onAddItem
+2022-01-27 18:28:29,805 [INFO] __main__ : calculate executed
+2022-01-27 18:28:29,805 [INFO] __main__ : idx value
+2022-01-27 18:28:29,805 [INFO] __main__ : 19
+2022-01-27 18:28:29,805 [INFO] __main__ : idx value before set None
+2022-01-27 18:28:29,805 [INFO] __main__ : None
+2022-01-27 18:28:29,805 [INFO] __main__ : After first slot self.pt._price_table value
+2022-01-27 18:28:29,805 [INFO] __main__ : {'EUR_USD': {'_dt': ['2022-01-27T12:56:50.000000000Z', '2022-01-27T12:56:55.000000000Z', '2022-01-27T12:57:00.000000000Z', '2022-01-27T12:57:05.000000000Z', '2022-01-27T12:57:10.000000000Z', '2022-01-27T12:57:15.000000000Z', '2022-01-27T12:57:20.000000000Z', '2022-01-27T12:57:25.000000000Z', '2022-01-27T12:57:30.000000000Z', '2022-01-27T12:57:35.000000000Z', '2022-01-27T12:57:40.000000000Z', '2022-01-27T12:57:45.000000000Z', '2022-01-27T12:57:50.000000000Z', '2022-01-27T12:57:55.000000000Z', '2022-01-27T12:58:00.000000000Z', '2022-01-27T12:58:05.000000000Z', '2022-01-27T12:58:10.000000000Z', '2022-01-27T12:58:15.000000000Z', '2022-01-27T12:58:20.000000000Z', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_c': [1.11618, 1.11618, 1.11614, 1.1161, 1.11607, 1.11606, 1.11605, 1.11604, 1.1159, 1.11583, 1.11587, 1.11591, 1.11592, 1.11595, 1.11592, 1.11586, 1.11586, 1.11586, 1.11581, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_v': [4, 8, 15, 3, 13, 7, 8, 5, 18, 10, 21, 7, 9, 8, 4, 9, 2, 6, 6, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_events': {'onAddItem': <__main__.Event object at 0x7f0c7f294580>}, 'idx': 19}}
+2022-01-27 18:28:29,806 [INFO] __main__ : _botstate call
+2022-01-27 18:28:29,806 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:28:29,806 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:28:29,806 [INFO] __main__ : _botstate self.state
+2022-01-27 18:28:29,806 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:28:29,806 [INFO] __main__ : _botstate self.units
+2022-01-27 18:28:29,806 [INFO] __main__ : 10
+2022-01-27 18:30:51,943 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:30:51,944 [INFO] oandapyV20.oandapyV20 : setting up API-client for environment practice
+2022-01-27 18:30:51,945 [INFO] __main__ : PriceTable __init__ executed
+2022-01-27 18:30:51,945 [INFO] __main__ : self.instrument value
+2022-01-27 18:30:51,945 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:51,945 [INFO] __main__ : self.granularity value
+2022-01-27 18:30:51,945 [INFO] __main__ : S5
+2022-01-27 18:30:51,945 [INFO] __main__ : self.pt value initilized
+2022-01-27 18:30:51,945 [INFO] __main__ : MAx __init__ executed
+2022-01-27 18:30:51,945 [INFO] __main__ : pt value
+2022-01-27 18:30:51,945 [INFO] __main__ : <__main__.PriceTable object at 0x7f70e022f370>
+2022-01-27 18:30:51,945 [INFO] __main__ : smaPeriod value
+2022-01-27 18:30:51,945 [INFO] __main__ : 10
+2022-01-27 18:30:51,945 [INFO] __main__ : lmaPeriod value
+2022-01-27 18:30:51,946 [INFO] __main__ : 20
+2022-01-27 18:30:51,946 [INFO] __main__ : Indicator __init__ executed
+2022-01-27 18:30:51,946 [INFO] __main__ : pt value
+2022-01-27 18:30:51,946 [INFO] __main__ : <__main__.PriceTable object at 0x7f70e022f370>
+2022-01-27 18:30:51,946 [INFO] __main__ : setHandler executed
+2022-01-27 18:30:51,946 [INFO] __main__ : name value
+2022-01-27 18:30:51,946 [INFO] __main__ : onAddItem
+2022-01-27 18:30:51,946 [INFO] __main__ : f value
+2022-01-27 18:30:51,946 [INFO] __main__ : <bound method MAx.calculate of <__main__.MAx object at 0x7f70e022f490>>
+2022-01-27 18:30:51,946 [INFO] __main__ : instrument value
+2022-01-27 18:30:51,946 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:51,947 [INFO] __main__ : Event: adding handler: calculate
+2022-01-27 18:30:51,947 [INFO] oandapyV20.oandapyV20 : performing request https://api-fxpractice.oanda.com/v3/instruments/EUR_USD/candles
+2022-01-27 18:30:52,382 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,382 [INFO] __main__ : dt value
+2022-01-27 18:30:52,383 [INFO] __main__ : 2022-01-27T12:59:15.000000000Z
+2022-01-27 18:30:52,383 [INFO] __main__ : c value
+2022-01-27 18:30:52,383 [INFO] __main__ : 1.11566
+2022-01-27 18:30:52,383 [INFO] __main__ : v value
+2022-01-27 18:30:52,383 [INFO] __main__ : 11
+2022-01-27 18:30:52,383 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,384 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,384 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,384 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,384 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,384 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,384 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,384 [INFO] __main__ : idx value
+2022-01-27 18:30:52,385 [INFO] __main__ : 1
+2022-01-27 18:30:52,385 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,385 [INFO] __main__ : None
+2022-01-27 18:30:52,385 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,385 [INFO] __main__ : dt value
+2022-01-27 18:30:52,385 [INFO] __main__ : 2022-01-27T12:59:20.000000000Z
+2022-01-27 18:30:52,386 [INFO] __main__ : c value
+2022-01-27 18:30:52,386 [INFO] __main__ : 1.11564
+2022-01-27 18:30:52,386 [INFO] __main__ : v value
+2022-01-27 18:30:52,386 [INFO] __main__ : 2
+2022-01-27 18:30:52,386 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,386 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,387 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,387 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,387 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,387 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,387 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,387 [INFO] __main__ : idx value
+2022-01-27 18:30:52,388 [INFO] __main__ : 2
+2022-01-27 18:30:52,388 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,388 [INFO] __main__ : None
+2022-01-27 18:30:52,388 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,388 [INFO] __main__ : dt value
+2022-01-27 18:30:52,388 [INFO] __main__ : 2022-01-27T12:59:25.000000000Z
+2022-01-27 18:30:52,388 [INFO] __main__ : c value
+2022-01-27 18:30:52,389 [INFO] __main__ : 1.11564
+2022-01-27 18:30:52,389 [INFO] __main__ : v value
+2022-01-27 18:30:52,389 [INFO] __main__ : 2
+2022-01-27 18:30:52,389 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,389 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,389 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,390 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,390 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,390 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,390 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,390 [INFO] __main__ : idx value
+2022-01-27 18:30:52,390 [INFO] __main__ : 3
+2022-01-27 18:30:52,390 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,390 [INFO] __main__ : None
+2022-01-27 18:30:52,390 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,390 [INFO] __main__ : dt value
+2022-01-27 18:30:52,391 [INFO] __main__ : 2022-01-27T12:59:30.000000000Z
+2022-01-27 18:30:52,391 [INFO] __main__ : c value
+2022-01-27 18:30:52,391 [INFO] __main__ : 1.11556
+2022-01-27 18:30:52,391 [INFO] __main__ : v value
+2022-01-27 18:30:52,391 [INFO] __main__ : 7
+2022-01-27 18:30:52,391 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,391 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,391 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,391 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,391 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,391 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,392 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,392 [INFO] __main__ : idx value
+2022-01-27 18:30:52,392 [INFO] __main__ : 4
+2022-01-27 18:30:52,392 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,392 [INFO] __main__ : None
+2022-01-27 18:30:52,392 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,392 [INFO] __main__ : dt value
+2022-01-27 18:30:52,392 [INFO] __main__ : 2022-01-27T12:59:35.000000000Z
+2022-01-27 18:30:52,392 [INFO] __main__ : c value
+2022-01-27 18:30:52,393 [INFO] __main__ : 1.11546
+2022-01-27 18:30:52,393 [INFO] __main__ : v value
+2022-01-27 18:30:52,393 [INFO] __main__ : 20
+2022-01-27 18:30:52,393 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,393 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,393 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,393 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,393 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,393 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,394 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,394 [INFO] __main__ : idx value
+2022-01-27 18:30:52,394 [INFO] __main__ : 5
+2022-01-27 18:30:52,394 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,394 [INFO] __main__ : None
+2022-01-27 18:30:52,394 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,394 [INFO] __main__ : dt value
+2022-01-27 18:30:52,394 [INFO] __main__ : 2022-01-27T12:59:40.000000000Z
+2022-01-27 18:30:52,394 [INFO] __main__ : c value
+2022-01-27 18:30:52,394 [INFO] __main__ : 1.11543
+2022-01-27 18:30:52,394 [INFO] __main__ : v value
+2022-01-27 18:30:52,394 [INFO] __main__ : 6
+2022-01-27 18:30:52,394 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,394 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,395 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,395 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,395 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,395 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,395 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,395 [INFO] __main__ : idx value
+2022-01-27 18:30:52,395 [INFO] __main__ : 6
+2022-01-27 18:30:52,395 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,395 [INFO] __main__ : None
+2022-01-27 18:30:52,395 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,395 [INFO] __main__ : dt value
+2022-01-27 18:30:52,395 [INFO] __main__ : 2022-01-27T12:59:45.000000000Z
+2022-01-27 18:30:52,395 [INFO] __main__ : c value
+2022-01-27 18:30:52,395 [INFO] __main__ : 1.11562
+2022-01-27 18:30:52,396 [INFO] __main__ : v value
+2022-01-27 18:30:52,396 [INFO] __main__ : 27
+2022-01-27 18:30:52,396 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,396 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,396 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,396 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,396 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,396 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,396 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,396 [INFO] __main__ : idx value
+2022-01-27 18:30:52,396 [INFO] __main__ : 7
+2022-01-27 18:30:52,396 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,396 [INFO] __main__ : None
+2022-01-27 18:30:52,397 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,397 [INFO] __main__ : dt value
+2022-01-27 18:30:52,397 [INFO] __main__ : 2022-01-27T12:59:50.000000000Z
+2022-01-27 18:30:52,397 [INFO] __main__ : c value
+2022-01-27 18:30:52,397 [INFO] __main__ : 1.11565
+2022-01-27 18:30:52,397 [INFO] __main__ : v value
+2022-01-27 18:30:52,397 [INFO] __main__ : 14
+2022-01-27 18:30:52,397 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,397 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,397 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,397 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,397 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,397 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,397 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,398 [INFO] __main__ : idx value
+2022-01-27 18:30:52,398 [INFO] __main__ : 8
+2022-01-27 18:30:52,398 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,398 [INFO] __main__ : None
+2022-01-27 18:30:52,398 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,398 [INFO] __main__ : dt value
+2022-01-27 18:30:52,398 [INFO] __main__ : 2022-01-27T12:59:55.000000000Z
+2022-01-27 18:30:52,398 [INFO] __main__ : c value
+2022-01-27 18:30:52,398 [INFO] __main__ : 1.11574
+2022-01-27 18:30:52,398 [INFO] __main__ : v value
+2022-01-27 18:30:52,398 [INFO] __main__ : 17
+2022-01-27 18:30:52,398 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,398 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,398 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,399 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,399 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,399 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,399 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,399 [INFO] __main__ : idx value
+2022-01-27 18:30:52,399 [INFO] __main__ : 9
+2022-01-27 18:30:52,399 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,399 [INFO] __main__ : None
+2022-01-27 18:30:52,399 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,399 [INFO] __main__ : dt value
+2022-01-27 18:30:52,399 [INFO] __main__ : 2022-01-27T13:00:00.000000000Z
+2022-01-27 18:30:52,399 [INFO] __main__ : c value
+2022-01-27 18:30:52,399 [INFO] __main__ : 1.11574
+2022-01-27 18:30:52,400 [INFO] __main__ : v value
+2022-01-27 18:30:52,400 [INFO] __main__ : 14
+2022-01-27 18:30:52,400 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,400 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,400 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,400 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,400 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,400 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,400 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,400 [INFO] __main__ : idx value
+2022-01-27 18:30:52,400 [INFO] __main__ : 10
+2022-01-27 18:30:52,400 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,400 [INFO] __main__ : None
+2022-01-27 18:30:52,400 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,401 [INFO] __main__ : dt value
+2022-01-27 18:30:52,401 [INFO] __main__ : 2022-01-27T13:00:05.000000000Z
+2022-01-27 18:30:52,401 [INFO] __main__ : c value
+2022-01-27 18:30:52,401 [INFO] __main__ : 1.11586
+2022-01-27 18:30:52,401 [INFO] __main__ : v value
+2022-01-27 18:30:52,401 [INFO] __main__ : 17
+2022-01-27 18:30:52,401 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,401 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,401 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,401 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,401 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,401 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,401 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,402 [INFO] __main__ : idx value
+2022-01-27 18:30:52,402 [INFO] __main__ : 11
+2022-01-27 18:30:52,402 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,402 [INFO] __main__ : None
+2022-01-27 18:30:52,402 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,402 [INFO] __main__ : dt value
+2022-01-27 18:30:52,402 [INFO] __main__ : 2022-01-27T13:00:10.000000000Z
+2022-01-27 18:30:52,402 [INFO] __main__ : c value
+2022-01-27 18:30:52,402 [INFO] __main__ : 1.11586
+2022-01-27 18:30:52,402 [INFO] __main__ : v value
+2022-01-27 18:30:52,402 [INFO] __main__ : 8
+2022-01-27 18:30:52,402 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,402 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,402 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,402 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,403 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,403 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,403 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,403 [INFO] __main__ : idx value
+2022-01-27 18:30:52,403 [INFO] __main__ : 12
+2022-01-27 18:30:52,403 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,403 [INFO] __main__ : None
+2022-01-27 18:30:52,403 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,403 [INFO] __main__ : dt value
+2022-01-27 18:30:52,403 [INFO] __main__ : 2022-01-27T13:00:15.000000000Z
+2022-01-27 18:30:52,403 [INFO] __main__ : c value
+2022-01-27 18:30:52,403 [INFO] __main__ : 1.11582
+2022-01-27 18:30:52,403 [INFO] __main__ : v value
+2022-01-27 18:30:52,404 [INFO] __main__ : 3
+2022-01-27 18:30:52,404 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,404 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,404 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,404 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,404 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,404 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,404 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,404 [INFO] __main__ : idx value
+2022-01-27 18:30:52,404 [INFO] __main__ : 13
+2022-01-27 18:30:52,404 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,404 [INFO] __main__ : None
+2022-01-27 18:30:52,404 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,404 [INFO] __main__ : dt value
+2022-01-27 18:30:52,405 [INFO] __main__ : 2022-01-27T13:00:20.000000000Z
+2022-01-27 18:30:52,405 [INFO] __main__ : c value
+2022-01-27 18:30:52,405 [INFO] __main__ : 1.11579
+2022-01-27 18:30:52,405 [INFO] __main__ : v value
+2022-01-27 18:30:52,405 [INFO] __main__ : 13
+2022-01-27 18:30:52,405 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,405 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,405 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,405 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,405 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,405 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,405 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,405 [INFO] __main__ : idx value
+2022-01-27 18:30:52,405 [INFO] __main__ : 14
+2022-01-27 18:30:52,406 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,406 [INFO] __main__ : None
+2022-01-27 18:30:52,406 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,406 [INFO] __main__ : dt value
+2022-01-27 18:30:52,406 [INFO] __main__ : 2022-01-27T13:00:25.000000000Z
+2022-01-27 18:30:52,406 [INFO] __main__ : c value
+2022-01-27 18:30:52,406 [INFO] __main__ : 1.11572
+2022-01-27 18:30:52,406 [INFO] __main__ : v value
+2022-01-27 18:30:52,406 [INFO] __main__ : 6
+2022-01-27 18:30:52,406 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,406 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,406 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,406 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,406 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,406 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,406 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,406 [INFO] __main__ : idx value
+2022-01-27 18:30:52,407 [INFO] __main__ : 15
+2022-01-27 18:30:52,407 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,407 [INFO] __main__ : None
+2022-01-27 18:30:52,407 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,407 [INFO] __main__ : dt value
+2022-01-27 18:30:52,407 [INFO] __main__ : 2022-01-27T13:00:30.000000000Z
+2022-01-27 18:30:52,407 [INFO] __main__ : c value
+2022-01-27 18:30:52,407 [INFO] __main__ : 1.11572
+2022-01-27 18:30:52,407 [INFO] __main__ : v value
+2022-01-27 18:30:52,407 [INFO] __main__ : 12
+2022-01-27 18:30:52,407 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,407 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,407 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,407 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,407 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,407 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,407 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,408 [INFO] __main__ : idx value
+2022-01-27 18:30:52,408 [INFO] __main__ : 16
+2022-01-27 18:30:52,408 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,408 [INFO] __main__ : None
+2022-01-27 18:30:52,408 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,408 [INFO] __main__ : dt value
+2022-01-27 18:30:52,408 [INFO] __main__ : 2022-01-27T13:00:35.000000000Z
+2022-01-27 18:30:52,408 [INFO] __main__ : c value
+2022-01-27 18:30:52,408 [INFO] __main__ : 1.11569
+2022-01-27 18:30:52,408 [INFO] __main__ : v value
+2022-01-27 18:30:52,408 [INFO] __main__ : 6
+2022-01-27 18:30:52,408 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,408 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,408 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,408 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,408 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,408 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,408 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,409 [INFO] __main__ : idx value
+2022-01-27 18:30:52,409 [INFO] __main__ : 17
+2022-01-27 18:30:52,409 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,409 [INFO] __main__ : None
+2022-01-27 18:30:52,409 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,409 [INFO] __main__ : dt value
+2022-01-27 18:30:52,409 [INFO] __main__ : 2022-01-27T13:00:40.000000000Z
+2022-01-27 18:30:52,409 [INFO] __main__ : c value
+2022-01-27 18:30:52,409 [INFO] __main__ : 1.11568
+2022-01-27 18:30:52,409 [INFO] __main__ : v value
+2022-01-27 18:30:52,409 [INFO] __main__ : 9
+2022-01-27 18:30:52,409 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,409 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,409 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,409 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,409 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,409 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,410 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,410 [INFO] __main__ : idx value
+2022-01-27 18:30:52,410 [INFO] __main__ : 18
+2022-01-27 18:30:52,410 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,410 [INFO] __main__ : None
+2022-01-27 18:30:52,410 [INFO] __main__ : addItem executed
+2022-01-27 18:30:52,410 [INFO] __main__ : dt value
+2022-01-27 18:30:52,410 [INFO] __main__ : 2022-01-27T13:00:45.000000000Z
+2022-01-27 18:30:52,410 [INFO] __main__ : c value
+2022-01-27 18:30:52,410 [INFO] __main__ : 1.11566
+2022-01-27 18:30:52,410 [INFO] __main__ : v value
+2022-01-27 18:30:52,410 [INFO] __main__ : 5
+2022-01-27 18:30:52,410 [INFO] __main__ : instrument value
+2022-01-27 18:30:52,410 [INFO] __main__ : EUR_USD
+2022-01-27 18:30:52,410 [INFO] __main__ : self.idx value
+2022-01-27 18:30:52,410 [INFO] __main__ : fireEvent call
+2022-01-27 18:30:52,410 [INFO] __main__ : fireEvent name
+2022-01-27 18:30:52,411 [INFO] __main__ : onAddItem
+2022-01-27 18:30:52,411 [INFO] __main__ : calculate executed
+2022-01-27 18:30:52,411 [INFO] __main__ : idx value
+2022-01-27 18:30:52,411 [INFO] __main__ : 19
+2022-01-27 18:30:52,411 [INFO] __main__ : idx value before set None
+2022-01-27 18:30:52,411 [INFO] __main__ : None
+2022-01-27 18:30:52,411 [INFO] __main__ : After first slot self.pt._price_table value
+2022-01-27 18:30:52,411 [INFO] __main__ : {'EUR_USD': {'_dt': ['2022-01-27T12:59:15.000000000Z', '2022-01-27T12:59:20.000000000Z', '2022-01-27T12:59:25.000000000Z', '2022-01-27T12:59:30.000000000Z', '2022-01-27T12:59:35.000000000Z', '2022-01-27T12:59:40.000000000Z', '2022-01-27T12:59:45.000000000Z', '2022-01-27T12:59:50.000000000Z', '2022-01-27T12:59:55.000000000Z', '2022-01-27T13:00:00.000000000Z', '2022-01-27T13:00:05.000000000Z', '2022-01-27T13:00:10.000000000Z', '2022-01-27T13:00:15.000000000Z', '2022-01-27T13:00:20.000000000Z', '2022-01-27T13:00:25.000000000Z', '2022-01-27T13:00:30.000000000Z', '2022-01-27T13:00:35.000000000Z', '2022-01-27T13:00:40.000000000Z', '2022-01-27T13:00:45.000000000Z', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_c': [1.11566, 1.11564, 1.11564, 1.11556, 1.11546, 1.11543, 1.11562, 1.11565, 1.11574, 1.11574, 1.11586, 1.11586, 1.11582, 1.11579, 1.11572, 1.11572, 1.11569, 1.11568, 1.11566, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_v': [11, 2, 2, 7, 20, 6, 27, 14, 17, 14, 17, 8, 3, 13, 6, 12, 6, 9, 5, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_events': {'onAddItem': <__main__.Event object at 0x7f70e022f550>}, 'idx': 19}}
+2022-01-27 18:30:52,411 [INFO] __main__ : _botstate call
+2022-01-27 18:30:52,411 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:30:52,411 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:30:52,411 [INFO] __main__ : _botstate self.state
+2022-01-27 18:30:52,411 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:30:52,412 [INFO] __main__ : _botstate self.units
+2022-01-27 18:30:52,412 [INFO] __main__ : 10
+2022-01-27 18:32:39,653 [INFO] __main__ : BotTrader Executed
+2022-01-27 18:32:39,654 [INFO] oandapyV20.oandapyV20 : setting up API-client for environment practice
+2022-01-27 18:32:39,654 [INFO] __main__ : PriceTable __init__ executed
+2022-01-27 18:32:39,654 [INFO] __main__ : self.instrument value
+2022-01-27 18:32:39,654 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:39,654 [INFO] __main__ : self.granularity value
+2022-01-27 18:32:39,654 [INFO] __main__ : S5
+2022-01-27 18:32:39,655 [INFO] __main__ : self.pt value initilized
+2022-01-27 18:32:39,655 [INFO] __main__ : MAx __init__ executed
+2022-01-27 18:32:39,655 [INFO] __main__ : pt value
+2022-01-27 18:32:39,655 [INFO] __main__ : <__main__.PriceTable object at 0x7f67a20e53a0>
+2022-01-27 18:32:39,655 [INFO] __main__ : smaPeriod value
+2022-01-27 18:32:39,655 [INFO] __main__ : 10
+2022-01-27 18:32:39,655 [INFO] __main__ : lmaPeriod value
+2022-01-27 18:32:39,655 [INFO] __main__ : 20
+2022-01-27 18:32:39,655 [INFO] __main__ : Indicator __init__ executed
+2022-01-27 18:32:39,655 [INFO] __main__ : pt value
+2022-01-27 18:32:39,655 [INFO] __main__ : <__main__.PriceTable object at 0x7f67a20e53a0>
+2022-01-27 18:32:39,655 [INFO] __main__ : setHandler executed
+2022-01-27 18:32:39,655 [INFO] __main__ : name value
+2022-01-27 18:32:39,656 [INFO] __main__ : onAddItem
+2022-01-27 18:32:39,656 [INFO] __main__ : f value
+2022-01-27 18:32:39,656 [INFO] __main__ : <bound method MAx.calculate of <__main__.MAx object at 0x7f67a20e54c0>>
+2022-01-27 18:32:39,656 [INFO] __main__ : instrument value
+2022-01-27 18:32:39,656 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:39,656 [INFO] __main__ : Event: adding handler: calculate
+2022-01-27 18:32:39,656 [INFO] oandapyV20.oandapyV20 : performing request https://api-fxpractice.oanda.com/v3/instruments/EUR_USD/candles
+2022-01-27 18:32:40,056 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,056 [INFO] __main__ : dt value
+2022-01-27 18:32:40,056 [INFO] __main__ : 2022-01-27T13:01:00.000000000Z
+2022-01-27 18:32:40,057 [INFO] __main__ : c value
+2022-01-27 18:32:40,057 [INFO] __main__ : 1.11562
+2022-01-27 18:32:40,057 [INFO] __main__ : v value
+2022-01-27 18:32:40,057 [INFO] __main__ : 18
+2022-01-27 18:32:40,057 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,057 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,057 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,057 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,058 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,058 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,058 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,058 [INFO] __main__ : idx value
+2022-01-27 18:32:40,058 [INFO] __main__ : 1
+2022-01-27 18:32:40,058 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,058 [INFO] __main__ : None
+2022-01-27 18:32:40,058 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,059 [INFO] __main__ : dt value
+2022-01-27 18:32:40,059 [INFO] __main__ : 2022-01-27T13:01:05.000000000Z
+2022-01-27 18:32:40,059 [INFO] __main__ : c value
+2022-01-27 18:32:40,059 [INFO] __main__ : 1.11562
+2022-01-27 18:32:40,059 [INFO] __main__ : v value
+2022-01-27 18:32:40,059 [INFO] __main__ : 5
+2022-01-27 18:32:40,059 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,059 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,059 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,060 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,060 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,060 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,060 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,060 [INFO] __main__ : idx value
+2022-01-27 18:32:40,060 [INFO] __main__ : 2
+2022-01-27 18:32:40,060 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,061 [INFO] __main__ : None
+2022-01-27 18:32:40,061 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,061 [INFO] __main__ : dt value
+2022-01-27 18:32:40,061 [INFO] __main__ : 2022-01-27T13:01:10.000000000Z
+2022-01-27 18:32:40,061 [INFO] __main__ : c value
+2022-01-27 18:32:40,061 [INFO] __main__ : 1.1156
+2022-01-27 18:32:40,061 [INFO] __main__ : v value
+2022-01-27 18:32:40,061 [INFO] __main__ : 7
+2022-01-27 18:32:40,061 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,061 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,062 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,062 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,062 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,062 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,062 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,062 [INFO] __main__ : idx value
+2022-01-27 18:32:40,062 [INFO] __main__ : 3
+2022-01-27 18:32:40,063 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,063 [INFO] __main__ : None
+2022-01-27 18:32:40,063 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,063 [INFO] __main__ : dt value
+2022-01-27 18:32:40,063 [INFO] __main__ : 2022-01-27T13:01:15.000000000Z
+2022-01-27 18:32:40,063 [INFO] __main__ : c value
+2022-01-27 18:32:40,063 [INFO] __main__ : 1.11566
+2022-01-27 18:32:40,064 [INFO] __main__ : v value
+2022-01-27 18:32:40,064 [INFO] __main__ : 20
+2022-01-27 18:32:40,064 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,064 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,064 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,064 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,064 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,065 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,065 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,065 [INFO] __main__ : idx value
+2022-01-27 18:32:40,065 [INFO] __main__ : 4
+2022-01-27 18:32:40,065 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,065 [INFO] __main__ : None
+2022-01-27 18:32:40,065 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,066 [INFO] __main__ : dt value
+2022-01-27 18:32:40,066 [INFO] __main__ : 2022-01-27T13:01:20.000000000Z
+2022-01-27 18:32:40,066 [INFO] __main__ : c value
+2022-01-27 18:32:40,066 [INFO] __main__ : 1.11558
+2022-01-27 18:32:40,066 [INFO] __main__ : v value
+2022-01-27 18:32:40,066 [INFO] __main__ : 7
+2022-01-27 18:32:40,066 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,066 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,066 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,066 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,066 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,066 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,066 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,066 [INFO] __main__ : idx value
+2022-01-27 18:32:40,067 [INFO] __main__ : 5
+2022-01-27 18:32:40,067 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,067 [INFO] __main__ : None
+2022-01-27 18:32:40,067 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,067 [INFO] __main__ : dt value
+2022-01-27 18:32:40,067 [INFO] __main__ : 2022-01-27T13:01:25.000000000Z
+2022-01-27 18:32:40,067 [INFO] __main__ : c value
+2022-01-27 18:32:40,067 [INFO] __main__ : 1.11558
+2022-01-27 18:32:40,067 [INFO] __main__ : v value
+2022-01-27 18:32:40,067 [INFO] __main__ : 10
+2022-01-27 18:32:40,067 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,067 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,067 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,067 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,068 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,068 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,068 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,068 [INFO] __main__ : idx value
+2022-01-27 18:32:40,068 [INFO] __main__ : 6
+2022-01-27 18:32:40,068 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,068 [INFO] __main__ : None
+2022-01-27 18:32:40,068 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,068 [INFO] __main__ : dt value
+2022-01-27 18:32:40,068 [INFO] __main__ : 2022-01-27T13:01:30.000000000Z
+2022-01-27 18:32:40,068 [INFO] __main__ : c value
+2022-01-27 18:32:40,068 [INFO] __main__ : 1.11548
+2022-01-27 18:32:40,068 [INFO] __main__ : v value
+2022-01-27 18:32:40,068 [INFO] __main__ : 10
+2022-01-27 18:32:40,068 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,069 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,069 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,069 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,069 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,069 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,069 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,069 [INFO] __main__ : idx value
+2022-01-27 18:32:40,069 [INFO] __main__ : 7
+2022-01-27 18:32:40,069 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,069 [INFO] __main__ : None
+2022-01-27 18:32:40,069 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,069 [INFO] __main__ : dt value
+2022-01-27 18:32:40,069 [INFO] __main__ : 2022-01-27T13:01:35.000000000Z
+2022-01-27 18:32:40,069 [INFO] __main__ : c value
+2022-01-27 18:32:40,070 [INFO] __main__ : 1.11542
+2022-01-27 18:32:40,070 [INFO] __main__ : v value
+2022-01-27 18:32:40,070 [INFO] __main__ : 9
+2022-01-27 18:32:40,070 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,070 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,070 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,070 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,070 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,070 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,070 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,070 [INFO] __main__ : idx value
+2022-01-27 18:32:40,070 [INFO] __main__ : 8
+2022-01-27 18:32:40,070 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,070 [INFO] __main__ : None
+2022-01-27 18:32:40,070 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,071 [INFO] __main__ : dt value
+2022-01-27 18:32:40,071 [INFO] __main__ : 2022-01-27T13:01:40.000000000Z
+2022-01-27 18:32:40,071 [INFO] __main__ : c value
+2022-01-27 18:32:40,071 [INFO] __main__ : 1.11548
+2022-01-27 18:32:40,071 [INFO] __main__ : v value
+2022-01-27 18:32:40,071 [INFO] __main__ : 12
+2022-01-27 18:32:40,071 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,071 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,071 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,071 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,071 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,071 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,071 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,071 [INFO] __main__ : idx value
+2022-01-27 18:32:40,071 [INFO] __main__ : 9
+2022-01-27 18:32:40,072 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,072 [INFO] __main__ : None
+2022-01-27 18:32:40,072 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,072 [INFO] __main__ : dt value
+2022-01-27 18:32:40,072 [INFO] __main__ : 2022-01-27T13:01:45.000000000Z
+2022-01-27 18:32:40,072 [INFO] __main__ : c value
+2022-01-27 18:32:40,072 [INFO] __main__ : 1.11556
+2022-01-27 18:32:40,072 [INFO] __main__ : v value
+2022-01-27 18:32:40,072 [INFO] __main__ : 9
+2022-01-27 18:32:40,072 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,072 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,072 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,072 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,072 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,072 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,073 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,073 [INFO] __main__ : idx value
+2022-01-27 18:32:40,073 [INFO] __main__ : 10
+2022-01-27 18:32:40,073 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,073 [INFO] __main__ : None
+2022-01-27 18:32:40,073 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,073 [INFO] __main__ : dt value
+2022-01-27 18:32:40,073 [INFO] __main__ : 2022-01-27T13:01:50.000000000Z
+2022-01-27 18:32:40,073 [INFO] __main__ : c value
+2022-01-27 18:32:40,073 [INFO] __main__ : 1.11559
+2022-01-27 18:32:40,073 [INFO] __main__ : v value
+2022-01-27 18:32:40,073 [INFO] __main__ : 5
+2022-01-27 18:32:40,073 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,074 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,074 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,074 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,074 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,074 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,074 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,074 [INFO] __main__ : idx value
+2022-01-27 18:32:40,074 [INFO] __main__ : 11
+2022-01-27 18:32:40,074 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,074 [INFO] __main__ : None
+2022-01-27 18:32:40,074 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,074 [INFO] __main__ : dt value
+2022-01-27 18:32:40,074 [INFO] __main__ : 2022-01-27T13:01:55.000000000Z
+2022-01-27 18:32:40,075 [INFO] __main__ : c value
+2022-01-27 18:32:40,075 [INFO] __main__ : 1.11559
+2022-01-27 18:32:40,075 [INFO] __main__ : v value
+2022-01-27 18:32:40,075 [INFO] __main__ : 6
+2022-01-27 18:32:40,075 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,075 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,075 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,075 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,075 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,075 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,075 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,075 [INFO] __main__ : idx value
+2022-01-27 18:32:40,076 [INFO] __main__ : 12
+2022-01-27 18:32:40,076 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,076 [INFO] __main__ : None
+2022-01-27 18:32:40,076 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,076 [INFO] __main__ : dt value
+2022-01-27 18:32:40,076 [INFO] __main__ : 2022-01-27T13:02:00.000000000Z
+2022-01-27 18:32:40,076 [INFO] __main__ : c value
+2022-01-27 18:32:40,076 [INFO] __main__ : 1.11561
+2022-01-27 18:32:40,076 [INFO] __main__ : v value
+2022-01-27 18:32:40,076 [INFO] __main__ : 11
+2022-01-27 18:32:40,076 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,077 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,077 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,077 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,077 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,077 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,077 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,077 [INFO] __main__ : idx value
+2022-01-27 18:32:40,077 [INFO] __main__ : 13
+2022-01-27 18:32:40,077 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,077 [INFO] __main__ : None
+2022-01-27 18:32:40,078 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,078 [INFO] __main__ : dt value
+2022-01-27 18:32:40,078 [INFO] __main__ : 2022-01-27T13:02:05.000000000Z
+2022-01-27 18:32:40,078 [INFO] __main__ : c value
+2022-01-27 18:32:40,078 [INFO] __main__ : 1.11554
+2022-01-27 18:32:40,078 [INFO] __main__ : v value
+2022-01-27 18:32:40,078 [INFO] __main__ : 5
+2022-01-27 18:32:40,078 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,078 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,078 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,078 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,078 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,078 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,078 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,078 [INFO] __main__ : idx value
+2022-01-27 18:32:40,079 [INFO] __main__ : 14
+2022-01-27 18:32:40,079 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,079 [INFO] __main__ : None
+2022-01-27 18:32:40,079 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,079 [INFO] __main__ : dt value
+2022-01-27 18:32:40,079 [INFO] __main__ : 2022-01-27T13:02:10.000000000Z
+2022-01-27 18:32:40,079 [INFO] __main__ : c value
+2022-01-27 18:32:40,079 [INFO] __main__ : 1.11548
+2022-01-27 18:32:40,079 [INFO] __main__ : v value
+2022-01-27 18:32:40,079 [INFO] __main__ : 6
+2022-01-27 18:32:40,079 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,079 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,079 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,079 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,079 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,079 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,079 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,080 [INFO] __main__ : idx value
+2022-01-27 18:32:40,080 [INFO] __main__ : 15
+2022-01-27 18:32:40,080 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,080 [INFO] __main__ : None
+2022-01-27 18:32:40,080 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,080 [INFO] __main__ : dt value
+2022-01-27 18:32:40,080 [INFO] __main__ : 2022-01-27T13:02:15.000000000Z
+2022-01-27 18:32:40,080 [INFO] __main__ : c value
+2022-01-27 18:32:40,080 [INFO] __main__ : 1.1155
+2022-01-27 18:32:40,080 [INFO] __main__ : v value
+2022-01-27 18:32:40,080 [INFO] __main__ : 5
+2022-01-27 18:32:40,080 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,080 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,080 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,080 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,080 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,080 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,080 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,081 [INFO] __main__ : idx value
+2022-01-27 18:32:40,081 [INFO] __main__ : 16
+2022-01-27 18:32:40,081 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,081 [INFO] __main__ : None
+2022-01-27 18:32:40,081 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,081 [INFO] __main__ : dt value
+2022-01-27 18:32:40,081 [INFO] __main__ : 2022-01-27T13:02:20.000000000Z
+2022-01-27 18:32:40,081 [INFO] __main__ : c value
+2022-01-27 18:32:40,081 [INFO] __main__ : 1.11547
+2022-01-27 18:32:40,081 [INFO] __main__ : v value
+2022-01-27 18:32:40,081 [INFO] __main__ : 14
+2022-01-27 18:32:40,081 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,081 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,081 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,081 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,081 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,081 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,082 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,082 [INFO] __main__ : idx value
+2022-01-27 18:32:40,082 [INFO] __main__ : 17
+2022-01-27 18:32:40,082 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,082 [INFO] __main__ : None
+2022-01-27 18:32:40,082 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,082 [INFO] __main__ : dt value
+2022-01-27 18:32:40,082 [INFO] __main__ : 2022-01-27T13:02:25.000000000Z
+2022-01-27 18:32:40,082 [INFO] __main__ : c value
+2022-01-27 18:32:40,082 [INFO] __main__ : 1.11558
+2022-01-27 18:32:40,082 [INFO] __main__ : v value
+2022-01-27 18:32:40,082 [INFO] __main__ : 20
+2022-01-27 18:32:40,082 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,082 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,082 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,082 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,082 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,082 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,082 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,083 [INFO] __main__ : idx value
+2022-01-27 18:32:40,083 [INFO] __main__ : 18
+2022-01-27 18:32:40,083 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,083 [INFO] __main__ : None
+2022-01-27 18:32:40,083 [INFO] __main__ : addItem executed
+2022-01-27 18:32:40,083 [INFO] __main__ : dt value
+2022-01-27 18:32:40,083 [INFO] __main__ : 2022-01-27T13:02:30.000000000Z
+2022-01-27 18:32:40,083 [INFO] __main__ : c value
+2022-01-27 18:32:40,083 [INFO] __main__ : 1.1155
+2022-01-27 18:32:40,083 [INFO] __main__ : v value
+2022-01-27 18:32:40,083 [INFO] __main__ : 19
+2022-01-27 18:32:40,083 [INFO] __main__ : instrument value
+2022-01-27 18:32:40,083 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:40,083 [INFO] __main__ : self.idx value
+2022-01-27 18:32:40,083 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:40,083 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:40,083 [INFO] __main__ : onAddItem
+2022-01-27 18:32:40,083 [INFO] __main__ : calculate executed
+2022-01-27 18:32:40,083 [INFO] __main__ : idx value
+2022-01-27 18:32:40,083 [INFO] __main__ : 19
+2022-01-27 18:32:40,084 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:40,084 [INFO] __main__ : None
+2022-01-27 18:32:40,084 [INFO] __main__ : After first slot self.pt._price_table value
+2022-01-27 18:32:40,084 [INFO] __main__ : {'EUR_USD': {'_dt': ['2022-01-27T13:01:00.000000000Z', '2022-01-27T13:01:05.000000000Z', '2022-01-27T13:01:10.000000000Z', '2022-01-27T13:01:15.000000000Z', '2022-01-27T13:01:20.000000000Z', '2022-01-27T13:01:25.000000000Z', '2022-01-27T13:01:30.000000000Z', '2022-01-27T13:01:35.000000000Z', '2022-01-27T13:01:40.000000000Z', '2022-01-27T13:01:45.000000000Z', '2022-01-27T13:01:50.000000000Z', '2022-01-27T13:01:55.000000000Z', '2022-01-27T13:02:00.000000000Z', '2022-01-27T13:02:05.000000000Z', '2022-01-27T13:02:10.000000000Z', '2022-01-27T13:02:15.000000000Z', '2022-01-27T13:02:20.000000000Z', '2022-01-27T13:02:25.000000000Z', '2022-01-27T13:02:30.000000000Z', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_c': [1.11562, 1.11562, 1.1156, 1.11566, 1.11558, 1.11558, 1.11548, 1.11542, 1.11548, 1.11556, 1.11559, 1.11559, 1.11561, 1.11554, 1.11548, 1.1155, 1.11547, 1.11558, 1.1155, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_v': [18, 5, 7, 20, 7, 10, 10, 9, 12, 9, 5, 6, 11, 5, 6, 5, 14, 20, 19, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None], '_events': {'onAddItem': <__main__.Event object at 0x7f67a20e5580>}, 'idx': 19}}
+2022-01-27 18:32:40,084 [INFO] __main__ : _botstate call
+2022-01-27 18:32:40,084 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:40,084 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:40,084 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:40,084 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:40,084 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:40,084 [INFO] __main__ : 10
+2022-01-27 18:32:41,138 [INFO] __main__ : _botstate call
+2022-01-27 18:32:41,139 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:41,139 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:41,139 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:41,139 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:41,139 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:41,139 [INFO] __main__ : 10
+2022-01-27 18:32:42,344 [INFO] __main__ : _botstate call
+2022-01-27 18:32:42,344 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:42,344 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:42,345 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:42,345 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:42,345 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:42,345 [INFO] __main__ : 10
+2022-01-27 18:32:42,874 [INFO] __main__ : _botstate call
+2022-01-27 18:32:42,874 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:42,874 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:42,875 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:42,875 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:42,875 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:42,875 [INFO] __main__ : 10
+2022-01-27 18:32:43,856 [INFO] __main__ : _botstate call
+2022-01-27 18:32:43,856 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:43,857 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:43,857 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:43,857 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:43,857 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:43,857 [INFO] __main__ : 10
+2022-01-27 18:32:45,108 [INFO] __main__ : _botstate call
+2022-01-27 18:32:45,108 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:45,108 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:45,109 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:45,109 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:45,109 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:45,109 [INFO] __main__ : 10
+2022-01-27 18:32:46,611 [INFO] __main__ : addItem executed
+2022-01-27 18:32:46,611 [INFO] __main__ : dt value
+2022-01-27 18:32:46,612 [INFO] __main__ : 2022-01-27T13:02:40.000000Z
+2022-01-27 18:32:46,612 [INFO] __main__ : c value
+2022-01-27 18:32:46,612 [INFO] __main__ : 1.115545
+2022-01-27 18:32:46,612 [INFO] __main__ : v value
+2022-01-27 18:32:46,612 [INFO] __main__ : 5
+2022-01-27 18:32:46,612 [INFO] __main__ : instrument value
+2022-01-27 18:32:46,613 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:46,613 [INFO] __main__ : self.idx value
+2022-01-27 18:32:46,613 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:46,613 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:46,613 [INFO] __main__ : onAddItem
+2022-01-27 18:32:46,613 [INFO] __main__ : calculate executed
+2022-01-27 18:32:46,614 [INFO] __main__ : idx value
+2022-01-27 18:32:46,614 [INFO] __main__ : 20
+2022-01-27 18:32:46,614 [INFO] __main__ : idx value before set None
+2022-01-27 18:32:46,614 [INFO] __main__ : None
+2022-01-27 18:32:46,614 [INFO] __main__ : _botstate call
+2022-01-27 18:32:46,614 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:46,614 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:46,614 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:46,614 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:46,615 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:46,615 [INFO] __main__ : 10
+2022-01-27 18:32:48,614 [INFO] __main__ : _botstate call
+2022-01-27 18:32:48,615 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:48,615 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:48,615 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:48,615 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:48,615 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:48,615 [INFO] __main__ : 10
+2022-01-27 18:32:51,607 [INFO] __main__ : addItem executed
+2022-01-27 18:32:51,607 [INFO] __main__ : dt value
+2022-01-27 18:32:51,608 [INFO] __main__ : 2022-01-27T13:02:45.000000Z
+2022-01-27 18:32:51,608 [INFO] __main__ : c value
+2022-01-27 18:32:51,608 [INFO] __main__ : 1.115505
+2022-01-27 18:32:51,608 [INFO] __main__ : v value
+2022-01-27 18:32:51,608 [INFO] __main__ : 2
+2022-01-27 18:32:51,608 [INFO] __main__ : instrument value
+2022-01-27 18:32:51,609 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:51,609 [INFO] __main__ : self.idx value
+2022-01-27 18:32:51,609 [INFO] __main__ : fireEvent call
+2022-01-27 18:32:51,609 [INFO] __main__ : fireEvent name
+2022-01-27 18:32:51,609 [INFO] __main__ : onAddItem
+2022-01-27 18:32:51,610 [INFO] __main__ : calculate executed
+2022-01-27 18:32:51,610 [INFO] __main__ : idx value
+2022-01-27 18:32:51,610 [INFO] __main__ : 21
+2022-01-27 18:32:51,610 [INFO] __main__ : # perform inefficient MA calculations to get the MAx value
+2022-01-27 18:32:51,610 [INFO] __main__ : idx value
+2022-01-27 18:32:51,610 [INFO] __main__ : 21
+2022-01-27 18:32:51,611 [INFO] __main__ : self.smaPeriod value
+2022-01-27 18:32:51,611 [INFO] __main__ : 10
+2022-01-27 18:32:51,611 [INFO] __main__ : _botstate call
+2022-01-27 18:32:51,611 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:51,611 [INFO] __main__ : {'EUR_USD': 0}
+2022-01-27 18:32:51,612 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:51,612 [INFO] __main__ : {'EUR_USD': 1}
+2022-01-27 18:32:51,612 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:51,612 [INFO] __main__ : 10
+2022-01-27 18:32:51,612 [INFO] __main__ : Close existing positions ... for 
+2022-01-27 18:32:51,613 [INFO] __main__ : EUR_USD
+2022-01-27 18:32:51,613 [INFO] oandapyV20.oandapyV20 : performing request https://api-fxpractice.oanda.com/v3/accounts/101-001-17903846-001/positions/EUR_USD
+2022-01-27 18:32:51,979 [INFO] __main__ : prepare to close: {}
+2022-01-27 18:32:51,980 [INFO] oandapyV20.oandapyV20 : performing request https://api-fxpractice.oanda.com/v3/accounts/101-001-17903846-001/orders
+2022-01-27 18:32:53,367 [INFO] __main__ : Response: 201 {
+  "orderCreateTransaction": {
+    "id": "162515",
+    "accountID": "101-001-17903846-001",
+    "userID": 17903846,
+    "batchID": "162515",
+    "requestID": "42921248854926740",
+    "time": "2022-01-27T13:02:53.186308249Z",
+    "type": "MARKET_ORDER",
+    "instrument": "EUR_USD",
+    "units": "-10",
+    "timeInForce": "FOK",
+    "positionFill": "DEFAULT",
+    "takeProfitOnFill": {
+      "price": "1.11528",
+      "timeInForce": "GTC"
+    },
+    "stopLossOnFill": {
+      "price": "1.11573",
+      "timeInForce": "GTC",
+      "triggerMode": "TOP_OF_BOOK"
+    },
+    "reason": "CLIENT_ORDER"
+  },
+  "orderFillTransaction": {
+    "id": "162516",
+    "accountID": "101-001-17903846-001",
+    "userID": 17903846,
+    "batchID": "162515",
+    "requestID": "42921248854926740",
+    "time": "2022-01-27T13:02:53.186308249Z",
+    "type": "ORDER_FILL",
+    "orderID": "162515",
+    "instrument": "EUR_USD",
+    "units": "-10",
+    "requestedUnits": "-10",
+    "price": "1.11539",
+    "pl": "0.0000",
+    "quotePL": "0",
+    "financing": "0.0000",
+    "baseFinancing": "0",
+    "commission": "0.0000",
+    "accountBalance": "98953.0474",
+    "gainQuoteHomeConversionFactor": "1",
+    "lossQuoteHomeConversionFactor": "1",
+    "guaranteedExecutionFee": "0.0000",
+    "quoteGuaranteedExecutionFee": "0",
+    "halfSpreadCost": "0.0007",
+    "fullVWAP": "1.11539",
+    "reason": "MARKET_ORDER",
+    "tradeOpened": {
+      "price": "1.11539",
+      "tradeID": "162516",
+      "units": "-10",
+      "guaranteedExecutionFee": "0.0000",
+      "quoteGuaranteedExecutionFee": "0",
+      "halfSpreadCost": "0.0007",
+      "initialMarginRequired": "0.2231"
+    },
+    "fullPrice": {
+      "closeoutBid": "1.11539",
+      "closeoutAsk": "1.11553",
+      "timestamp": "2022-01-27T13:02:51.402174498Z",
+      "bids": [
+        {
+          "price": "1.11539",
+          "liquidity": "10000000"
+        }
+      ],
+      "asks": [
+        {
+          "price": "1.11553",
+          "liquidity": "10000000"
+        }
+      ]
+    },
+    "homeConversionFactors": {
+      "gainQuoteHome": {
+        "factor": "1"
+      },
+      "lossQuoteHome": {
+        "factor": "1"
+      },
+      "gainBaseHome": {
+        "factor": "1.10988270"
+      },
+      "lossBaseHome": {
+        "factor": "1.12103730"
+      }
+    }
+  },
+  "relatedTransactionIDs": [
+    "162515",
+    "162516",
+    "162517",
+    "162518"
+  ],
+  "lastTransactionID": "162518"
+}
+2022-01-27 18:32:53,367 [INFO] __main__ : _botstate call
+2022-01-27 18:32:53,367 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:53,368 [INFO] __main__ : {'EUR_USD': 1}
+2022-01-27 18:32:53,368 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:53,368 [INFO] __main__ : {'EUR_USD': 1}
+2022-01-27 18:32:53,368 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:53,368 [INFO] __main__ : 10
+2022-01-27 18:32:53,857 [INFO] __main__ : _botstate call
+2022-01-27 18:32:53,857 [INFO] __main__ : _botstate prev.state
+2022-01-27 18:32:53,858 [INFO] __main__ : {'EUR_USD': 1}
+2022-01-27 18:32:53,858 [INFO] __main__ : _botstate self.state
+2022-01-27 18:32:53,858 [INFO] __main__ : {'EUR_USD': 1}
+2022-01-27 18:32:53,858 [INFO] __main__ : _botstate self.units
+2022-01-27 18:32:53,858 [INFO] __main__ : 10

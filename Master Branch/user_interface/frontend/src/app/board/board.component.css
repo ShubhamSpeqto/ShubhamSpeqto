@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+}
+.container{
+height: 60em;
+}
+.mat-tab-group {
+    margin-bottom: 48px;
+}
+.right_value {
+  position: absolute;
+  right:4%;
+}
+.account_summary_section{
+  background: #F3F3F3;
+}
+.account_container{
+  background: white;
+  border: 0 none;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 1px rgb(0 0 0 / 16%);
+  box-sizing: border-box;
+  width: 90%;
+  margin: 5% auto;
+  position: relative;
+  border-bottom: 3px solid #0E1E67;
+  padding: 1px 40px;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+}

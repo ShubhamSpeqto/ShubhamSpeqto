@@ -1,0 +1,86 @@
+
+#first-row{
+  justify-content: center;
+  padding: 2%;
+}
+
+.container-fluid{
+  background:#f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.jumbotron{
+  background-color: transparent;
+}
+#form{
+  padding:0 6% 0 6% ;
+}
+.btn-success{
+  background: #191B91;
+  color: #fff;
+  width: 20%;
+  border-radius: 8px;
+}
+.form-group .form-control-file, .form-group select{
+  background:#f0f0f0;
+}
+.form-group .ng-touched {
+  border: 1px solid red;
+}
+.form-group .ng-valid {
+  border: 1px solid #ced4da;
+}
+#busniss .ng-touched{
+  border: 1px solid #ced4da;
+}
+.btn-primary{
+  background: linear-gradient(to right, #191B91 0%, #FF8D1E 100%) !important;
+  border: 0;
+  /* width: 20%; */
+  border-radius: 8px;
+
+}
+::ng-deep .iti{
+  display: revert !important;
+}
+.btn-danger{
+  /* border: 0;
+  width: 20%; */
+  border-radius: 8px;
+}
+.form-group input,.form-group textarea, .form-group select{
+  padding: 2% 0 1% 3%;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.col{
+  padding: 0 5% 0 6%;
+}
+h1{
+  /* font-family: 'Montserrat', sans-serif; */
+  color: #000000;
+}
+label{
+  /* font-family: 'Montserrat', sans-serif; */
+  color: #8E8E8E;
+}
+#trading-plane{
+  padding: 0 2% 0 4%;
+}
+#trading-plane input{
+  padding: 5% 0 1% 3% !important; 
+}
+#secondgroup{
+  margin: 0 !important;
+  /* padding: 0 !important; */
+
+}
+@media screen and(max-width : 999px){
+.col{
+  padding: 0 !important;
+}
+#secondgroup{
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+}

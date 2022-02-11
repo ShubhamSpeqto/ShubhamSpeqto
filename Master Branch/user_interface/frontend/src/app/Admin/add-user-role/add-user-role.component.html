@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="card">
+                <h2 class="card-title text-center">User Role</h2>
+                <div class="card-body py-md-4 ">
+
+                    <form [formGroup]="addrolemanagementForm" (ngSubmit)="onSubmit()">
+
+                        <div class="form-check form-check-inline">
+                            <input formControlName="role" class="form-check-input" type="text"
+                                id="inlineCheckbox2" >
+                            <label class="form-check-label" for="inlineCheckbox2">Select Role</label>
+                        </div>
+                        
+                        <button type="submit" [disabled]="!addrolemanagementForm.valid"
+                        class="btn btn-primary mr-3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

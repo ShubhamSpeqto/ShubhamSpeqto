@@ -1,0 +1,101 @@
+<div class="container">
+<div>
+    <form id="msform">
+        <div>
+            <form #profileForm="ngForm" class="profile blockEduProgressBar profile-form">
+                
+               <div class="row first-row">
+                        <div class="col-md-12">
+                          <div class="form-group row">
+                            <div class="col-md-4 profile-name-align">
+                              <label class="label-css side-content">
+                                <span class="requ"></span>Instrument
+                              </label>
+                            </div>
+                            <div class="col-md-8">
+                              <samp class="notranslate" translate="no">
+                                <mat-form-field appearance="fill" class="input_width">
+                                  <mat-label>Select Instrument</mat-label>
+                                  <mat-select [formControl]="toppings" multiple>
+                                    <mat-select-trigger>
+                                      {{toppings.value ? toppings.value[0] : ''}}
+                                      <span *ngIf="toppings.value?.length > 1" class="example-additional-selection">
+                                        (+{{toppings.value.length - 1}} {{toppings.value?.length === 2 ? 'other' : 'others'}})
+                                      </span>
+                                    </mat-select-trigger>
+                                    <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+                                  </mat-select>
+                                </mat-form-field>
+                              </samp>
+                              <!-- <div *ngIf="tutorName.invalid && tutorName.touched" class="alert alert-danger username">
+                                <div class="error-msg" *ngIf="tutorName.errors.required">{{ 'studentProfile.fullNameRequired'  }}</div>
+                              </div> -->
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group row">
+                            <div class="col-md-4 profile-name-align profile-text">
+                              <label class="label-css side-content">
+                                <span class="requ"></span>Granularity
+                              </label>
+                            </div>
+                            <div class="col-md-8">
+                              <samp class="notranslate" translate="no">
+                                <mat-form-field appearance="fill" class="input_width">
+                                  <mat-label>Select Granularity</mat-label>
+                                  <mat-select [(ngModel)]="granularity" name="granularity">
+                                    <mat-option *ngFor="let food of foods" [value]="food.value">
+                                      {{food.viewValue}}
+                                    </mat-option>
+                                  </mat-select>
+                                </mat-form-field>
+                              </samp>
+                              <!-- <div *ngIf="tutorDob.invalid && tutorDob.touched" class="alert alert-danger username">
+                                <div class="error-msg" *ngIf="tutorDob.errors.required">{{ 'studentProfile.dobRequired' | translate }}</div>
+                              </div> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row first-row">
+                        <div class="col-md-12">
+                          <div class="form-group row">
+                            <div class="col-md-4 profile-name-align">
+                              <label class="label-css side-content">
+                                <span class="requ"></span>Units
+                              </label>
+                            </div>
+                            <div class="col-md-8">
+                              <samp class="notranslate" translate="no">
+                                <input class="form-control" placeholder="Units" name="units" [(ngModel)]="units"
+                                  #tutorDob="ngModel" type="number" required>
+                              </samp>
+                              <!-- <div *ngIf="country.invalid && country.touched" class="alert alert-danger ">
+                                <div *ngIf="country.errors.required">{{ 'studentProfile.countryRequired' | translate }}</div>
+                              </div> -->
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row my-3 ">
+                          <div class="col">
+                              <!-- <button type="submit" (click)="backbutton()" class="btn btn-primary mr-3">Back</button> -->
+                              <button type="submit" style="float: left;" class="btn btn-primary mr-3">Back</button>
+                          </div>
+                          <div class="col text-right">
+      
+                              <!-- <button type="submit" (click)="cancel()" class="btn btn-danger mr-3">Cancel</button> -->
+                              <button type="submit" class="btn btn-danger mr-3">Cancel</button>
+                              <!-- <button type="submit" (click)="onSubmit(CreateAssignmentForm.value)" id="btn-primary" [disabled]="!CreateAssignmentForm.valid" class="btn btn-primary mr-3 ">Submit</button> -->
+                              <!-- <button type="submit" id="btn-primary" [disabled]="!OrderEngineExecutionForm.valid" class="btn btn-primary mr-3 ">Submit</button> -->
+                              <button type="submit" id="btn-primary" class="btn btn-primary mr-3 ">Submit</button>
+                          </div>
+                        </div>
+                      </div>
+
+            </form>
+        </div>
+    </form>
+   
+</div>
+</div>

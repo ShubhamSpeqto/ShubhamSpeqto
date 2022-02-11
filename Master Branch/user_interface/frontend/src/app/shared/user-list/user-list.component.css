@@ -1,0 +1,13 @@
+.container-fluid{
+    background:#f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  .jumbotron{
+    background-color: transparent;
+  }
+
+  .mat-table{
+    /* padding:0 6% 0 6% ; */
+      width: 100%;
+  }

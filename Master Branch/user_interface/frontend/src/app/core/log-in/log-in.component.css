@@ -1,0 +1,122 @@
+.text-warning{
+    color: #FF8D1E !important;
+}
+.text-secondery{
+    color: #C4C4C4 !important;
+}
+#forgotpassword a{
+    justify-content: end !important;
+    text-decoration: none;
+}
+#loginbutton button{
+    background: linear-gradient(96.68deg, #4F3DBB -94.21%, #9A3DBB 142.46%);
+    box-shadow: 3px 4px 22px rgba(154, 61, 187, 0.56);
+    border-radius: 6px;
+    /* background: linear-gradient(to right, #191B91 0%, #FF8D1E 100%) !important; */
+    border: 0;
+    width: 40%;
+    /* border-radius: 8px; */
+}
+#login-first{
+    background-image: url(../../../assets/pic/loginpic/background_img.png);   
+    background-size: contain;
+}
+.login_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    color: #5201A8;
+}
+.margin-auto{
+    margin: auto;
+}
+h1 {
+    font-size: 4.5rem;
+    
+}
+h2,label{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+}
+.w-75 {
+    width: 100%;
+}
+.h4, h4 {
+    font-size: 17px;
+    line-height: 17px;
+}
+.bg-white{
+    background-color: transparent !important;
+}
+.form-group input {
+    background:#f0f0f0;
+  }
+.form-group .ng-touched {
+    border: 1px solid red;
+}
+.form-group .ng-valid {
+    border: 1px solid #ced4da;
+}
+.card{
+    /* border: 2px solid red; */
+    box-shadow: 5px 10px 15px #888888;
+}
+.jumbotron{
+    font-weight: 1000 !important;
+    color: #FF8D1E !important;
+    font-size: 48px; 
+    /* font-weight: 275% !important; */
+}
+#eye{
+  float: right;
+  margin-left: -33px;
+  margin-top: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.col-md-4{
+    padding: 0 5% 0 0;
+}
+.navbar{
+    background-color: transparent !important;
+}
+@media screen and (max-width: 1278px){
+    .h4, h4 {
+        font-size: 13px;
+        
+    }
+}
+@media screen and (max-width: 996px) {
+    .col-md-2,.col {
+      /* background-image: none; */
+        display: none;
+    }
+    .jumbotron{
+        padding-top: 0 !important;
+    }
+    .col-lg-4{
+        margin: 0 10% 0 10% !important;
+        /* padding: 0 5% 0 5%; */
+        padding: 0 ;
+    }
+    .row{
+        justify-content: center !important;
+    }
+    .card{
+        padding: 0 !important;
+    }
+    .card-body{
+        padding: 9% 13% 6% 10% !important;
+        margin: 0 !important;
+    }
+    .btn{
+        width: 34% !important;
+    }
+  }
+  
+  @media screen and (min-width: 996px) {
+    .navbar{
+      display: none;
+    }
+  }

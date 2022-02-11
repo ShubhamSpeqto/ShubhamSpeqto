@@ -1,0 +1,59 @@
+<div class="container-fluid">
+    <div class="row ">
+        <div class="jumbotron my-0 py-3 ">
+            <h1 class="font-weight-bold text-left">
+                Add a new Assignment
+            </h1>
+        </div>
+        <div class="col-md-12 " id="form">
+            <form [formGroup]="CreateAssignmentForm" >
+                
+                <div class="row bg-white" id="first-row">
+                    <div class="col-md-12 p-2">
+
+                        <h2 class="font-weight-bold">Information</h2>
+                    </div>
+                    <div class="col-md-12 pb-4">
+                        <div class="form-group">
+                            <div class="col">
+                                <label class="col-lg-5 col-sm-12 col-form-label mb-3 text-center" for="">User : </label>
+                                
+                                    <select formControlName="assignedUser" class=" col-lg-2 col-sm-12 form-controll-file">
+                                    <option selected value="">Choose</option>
+                                    <option *ngFor="let item of collection" [value]="item.user_id">{{item.first_name}}</option>
+                                    <!-- <option value="3">Hunter</option>
+                                    <option value="4">Mam</option> -->
+                                    </select>
+                                
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                         <label for="" class="col-lg-5 col-sm-12 col-form-label mb-3 text-center">Task Name : </label>
+                            <input type="text" formControlName="assignmentName" id="taskname">
+                        </div>
+                        
+                        <div class="input-group" >
+                            <label for="exampleFormControlFile1"  class="col-lg-5 col-sm-12 col-form-label mb-3 text-center" >Task Discription</label>
+                            <textarea formControlName="assignmentDescription" class="" rows="7" cols="49"
+                                id="exampleFormControlFile1" placeholder=""> </textarea>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="row my-3 ">
+                    <div class="col">
+                        <button type="submit" (click)="backbutton()" class="btn btn-primary mr-3">Back</button>
+                    </div>
+                    <div class="col text-right">
+
+                        <button type="submit" (click)="cancel()" class="btn btn-danger mr-3">Cancel</button>
+                        <button type="submit" (click)="onSubmit(CreateAssignmentForm.value)" id="btn-primary" [disabled]="!CreateAssignmentForm.valid" class="btn btn-primary mr-3 ">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,232 @@
+<nav class="navbar navbar-expand-lg navbar-light justify-content-center pt-0">
+  <div class="logo text-center ">
+    <!-- <h1>cat</h1> -->
+    <img src="../../../assets/pic/loginpic/catLogoforipad.png" class="w-50" alt="">
+  </div>
+</nav>
+<div class="container-fluid " id="kyc-first">
+  <div class="row justify-content-end">
+    <div class="col-md-2">
+      <h1 class="text-warning font-weight-bold mb-0">
+        C.A.T
+      </h1>
+      <h4 class="text-secondary">Delivery True Value</h4>
+    </div>
+    <div class="col" id="catpic">
+      <img src="../../../assets/pic/loginpic/catLogo.png" class="responsive" width="100" height="400" alt="">
+    </div>
+
+    <div class="col mr-3" id="stapperpart">
+      <h2 class="jumbotron bg-white text-center font-weight-bold mb-0 pb-3"> KYC</h2>
+
+
+
+      <!-- <form [formGroup]="kycForm" class="py-2" (ngSubmit)="onSubmit()"> -->
+      <div class="card px-4 py-2 mb-3">
+        <div class="card-body py-md-4">
+
+
+          <mat-horizontal-stepper #stepper>
+
+            <mat-step [stepControl]="KycFirstFormGroup">
+              <form [formGroup]="KycFirstFormGroup " class="py-2" (ngSubmit)="submit1()">
+                <ng-template  matStepLabel>Step 1</ng-template>
+                <div class="row mb-5">
+
+                  <div class="col-lg-5 col-sm-12 mr-4 " id="firstfileupload">
+
+                    <label>Name</label>
+                    <div class="">
+                      <mat-form-field appearance="outline">
+                        <input matInput formControlName="name" value="{{userName}}" readonly>
+                      </mat-form-field>
+                      <!-- <div *ngIf="KycFirstFormGroup.controls['name'].invalid && (KycFirstFormGroup.controls['name'].dirty || KycFirstFormGroup.controls['name'].touched)" class="alert">
+                        <div *ngIf="KycFirstFormGroup.controls['name'].errors.required">
+                        Please enter name
+                      </div> -->
+                    <!-- </div> -->
+                  </div>
+
+
+
+
+                  <label>Id Card Number / Passport</label>
+                  <div>
+                    <mat-form-field appearance="outline">
+                      <input matInput formControlName="idCardNumber" required>
+                    </mat-form-field>
+                  </div>
+
+
+
+                  <label>Bank Account Number</label>
+                  <div>
+                    <mat-form-field appearance="outline">
+
+                      <input matInput formControlName="bankAccountNumber" required>
+                    </mat-form-field>
+                  </div>
+
+                  <label>Address</label>
+                  <div>
+                    <mat-form-field class="d-flex" appearance="outline">
+                      <textarea value="{{address}}" formControlName="address" readonly matInput></textarea>
+                    </mat-form-field>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-5 col-sm-12 ml-4" id="secondfileupload">
+                  <label>Occupation</label>
+                  <div>
+                    <mat-form-field appearance="outline">
+                      <input matInput formControlName="occupation" required>
+                    </mat-form-field>
+                  </div>
+
+
+
+
+                  <label class="font-weight-bold">Selfie with Id card</label>
+                  <div>
+                    <input type="file" formControlName="selfieWithIdCardImage"
+                      (change)="onSelectFile($event,'selfieWithIdCardImage')" name="selfieWithIdCardImage" id="">
+                  </div>
+
+                  <label class="font-weight-bold">Upload Bank Statement</label>
+                  <div>
+                    <input type="file" formControlName="bankStatementImage"
+                      (change)="onSelectFile($event,'bankStatementImage')" name="bankStatementImage" id="">
+                  </div>
+
+                  <label class="font-weight-bold">Upload Your ID/Passport</label>
+                  <div>
+                    <input type="file" formControlName="idCardWithImage"
+                      (change)="onSelectFile($event,'idCardWithImage')" name="idCardWithImage" id="">
+                  </div>
+                </div>
+
+        </div>
+
+
+        <div class="text-right">
+          <button type="submit" [disabled]="!KycFirstFormGroup.valid" class="text-white " mat-button
+            matStepperNext>Continue</button>
+        </div>
+        </form>
+        </mat-step>
+
+
+        <mat-step [stepControl]="KycSecondFormGroup">
+          <form [formGroup]="KycSecondFormGroup" (ngSubmit)="submit2()">
+            <ng-template matStepLabel>Step 2</ng-template>
+            <mat-card formArrayName="userAccount">
+              <div class="text-right">
+
+                <mat-icon id="addingbutton" (click)="addvalue()">add</mat-icon>
+              </div>
+              <!-- <mat-card-title>Units</mat-card-title>
+                  <mat-divider></mat-divider> -->
+
+              <!-- loop throught units -->
+              <div *ngFor="let unit of KycSecondFormGroup.controls.userAccount.controls; let i=index">
+
+                <!-- row divider show for every nex row exclude if first row -->
+                <mat-divider *ngIf="KycSecondFormGroup.controls.userAccount.controls.length > 1 && i > 0"></mat-divider>
+                <br>
+
+
+
+                <!-- group name in this case row index -->
+                <div [formGroupName]="i">
+                  <div class="d-flex" >
+
+                    <!-- unit name input field -->
+                    <div class="col-3">
+                      
+                      <label class="mx-2">Account {{i+1}}</label>
+                    </div>
+                    <div class="col-7">
+                        <mat-form-field >
+
+                        <input matInput placeholder="" formControlName="account_number" required>
+                        <!-- input field error -->
+                        <mat-error *ngIf="unit.controls.account_number.invalid">
+                          Account number is required
+                        </mat-error>
+                      </mat-form-field>
+                    </div>
+                    <mat-icon id="addingbutton" (click)="removevalue(i)" class="mx-2">delete</mat-icon>
+
+                  </div>
+                </div>
+              </div>
+
+              <mat-card-actions>
+
+                <div class="text-right">
+
+                  <button class="text-white" [disabled]="!KycSecondFormGroup.valid" mat-button
+                    matStepperNext>Continue</button>
+                </div>
+
+              </mat-card-actions>
+            </mat-card>
+          </form>
+        </mat-step>
+
+
+        <mat-step>
+          <form [formGroup]="KycThirdFormGroup" (ngSubmit)="submit3()">
+            <ng-template matStepLabel>Step 3</ng-template>
+            <div>
+              <p>To Process You must have done all these things.</p>
+              <mat-checkbox formControlName="forecast_course">
+                <p>
+                  Have you ever joined the "Price Forcast Course".
+                </p>
+              </mat-checkbox>
+            </div>
+            <div>
+
+              <mat-checkbox formControlName="manager_account_balance">
+                <p>
+                  Each Manager Acocunt has =>1000 USD.
+                </p>
+              </mat-checkbox>
+            </div>
+            <div>
+
+              <mat-checkbox formControlName="frequency_of_trade">
+                <p>
+                  Frequency of Trade > 5 signal / Week.
+                </p>
+              </mat-checkbox>
+            </div>
+            <div>
+
+              <mat-checkbox formControlName="number_of_manager_inside_him">
+                <p>
+                  Has More Than 15 Manager on OrientalFX
+                </p>
+              </mat-checkbox>
+            </div>
+
+
+
+            <div class="text-right">
+              <!-- <button mat-button matStepperPrevious>Back</button> -->
+              <button class="text-white" [disabled]="!KycThirdFormGroup.valid" type="submit" mat-button>Submit</button>
+            </div>
+          </form>
+
+        </mat-step>
+        </mat-horizontal-stepper>
+
+
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- </div> -->

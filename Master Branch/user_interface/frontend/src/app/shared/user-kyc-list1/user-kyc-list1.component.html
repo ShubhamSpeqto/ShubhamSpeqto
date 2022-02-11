@@ -1,0 +1,265 @@
+<div class="container">
+  
+    <h1 class="jumbotron font-weight-bold mb-0 pb-3 pt-4">
+        KYC
+    </h1>
+   <div class="row">
+        <div class="col-lg-12">
+            <div class="card px-4">
+                <h2 class="jumbotron  font-weight-bold mb-0 pt-2 pb-3 "> KYC Details</h2>
+                <div class="card-body py-md-4">
+
+
+                   
+                    <!-- <form [formGroup]="userkyclistForm">
+
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <label for="exampleInputEmail1" class="font-weight-bold">Name</label>
+                                </div>
+                                <div class="col-7">
+
+                                    <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                        formControlName="name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <label for="exampleInputEmail1" class="font-weight-bold">Id card Number</label>
+                                </div>
+                                <div class="col-7">
+
+                                    <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                        formControlName="idCardNumber">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <label for="exampleInputEmail1" class="font-weight-bold">Bank Account number</label>
+                                </div>
+                                <div class="col-7">
+
+                                    <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                        formControlName="bankAccountNumber">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <label for="exampleInputEmail1" class="font-weight-bold">Address</label>
+                                </div>
+                                <div class="col-7">
+
+                                    <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                        formControlName="address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-3">
+
+                                    <label for="exampleInputEmail1" class="font-weight-bold">Occupation</label>
+                                </div>
+                                <div class="col-7">
+
+                                    <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                        formControlName="occupation">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-5">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div>
+                                        <img [src]="collection.bankStatementImageurl" alt="..." class="img-thumbnail">
+                                    </div>
+                                   
+                                </div>
+
+                                
+                                <div class="col-4">
+                                    <div>
+                                        <img [src]="collection.selfieWithIdCardImageurl" alt="..." class="img-thumbnail">
+                                    </div>
+                                   
+                                </div>
+
+
+                                <div class="col-4">
+                                    <div>
+                                        <img [src]="collection.idCardWithImageurl"alt="..." class="img-thumbnail">
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            
+                               
+                            
+                        <div class="col-8 text-right" id="loginbutton">
+                            
+                            <button type="submit" (click) = "onSubmit1('disapprove')"  class="btn px-3 my-4 btn-danger">Denie</button>
+                            <button type="submit" (click)="onSubmit('approve')" class="btn px-3 my-4 mx-3 btn-primary">Approve</button>
+                        </div>
+                        </div>
+                    </form> -->
+                    <form [formGroup]="userkyclistForm">
+                    <mat-tab-group mat-align-tabs="center">
+                        <mat-tab label="Basic Details">
+                            
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-3">
+        
+                                            <label for="exampleInputEmail1" class="font-weight-bold">Name</label>
+                                        </div>
+                                        <div class="col-7">
+        
+                                            <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                                formControlName="name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-3">
+        
+                                            <label for="exampleInputEmail1" class="font-weight-bold">Id card Number</label>
+                                        </div>
+                                        <div class="col-7">
+        
+                                            <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                                formControlName="idCardNumber">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-3">
+        
+                                            <label for="exampleInputEmail1" class="font-weight-bold">Bank Account number</label>
+                                        </div>
+                                        <div class="col-7">
+        
+                                            <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                                formControlName="bankAccountNumber">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-3">
+        
+                                            <label for="exampleInputEmail1" class="font-weight-bold">Address</label>
+                                        </div>
+                                        <div class="col-7">
+        
+                                            <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                                formControlName="address">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-3">
+        
+                                            <label for="exampleInputEmail1" class="font-weight-bold">Occupation</label>
+                                        </div>
+                                        <div class="col-7">
+        
+                                            <input readonly type="text" class="form-control" id="exampleInputEmail1"
+                                                formControlName="occupation">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group mt-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div>
+                                                <img [src]="collection.bankStatementImageurl" alt="..." class="img-thumbnail">
+                                            </div>
+                                           
+                                        </div>
+        
+                                        
+                                        <div class="col-4">
+                                            <div>
+                                                <img [src]="collection.selfieWithIdCardImageurl" alt="..." class="img-thumbnail">
+                                            </div>
+                                           
+                                        </div>
+        
+        
+                                        <div class="col-4">
+                                            <div>
+                                                <img [src]="collection.idCardWithImageurl"alt="..." class="img-thumbnail">
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    
+                                       
+                                    
+                                <!-- <div class="col-8 text-right" id="loginbutton">
+                                    
+                                    <button type="submit" (click) = "onSubmit1('missing-Document')"  class="btn px-3 my-4 btn-danger">Denie</button>
+                                    <button type="submit" (click)="onSubmit('approve')" class="btn px-3 my-4 mx-3 btn-primary">Approve</button>
+                                </div> -->
+                                </div>
+                            </mat-tab>
+                            <mat-tab label="Accounts">
+
+                                <div class="container">
+                                    <div  >
+                                        <!-- <h2 style="text-align: center;">List of Restorents!</h2><br><br> -->
+                                    
+                                        <div class="container-fluid" style="text-align: center;">
+                                            <table class="table " style="text-align: center;">
+                                                <thead>
+                                                    <tr>
+                                                        <!-- <th scope="col">#</th> -->
+                                                        <th scope="col">Account ID</th>
+                                                        <th scope="col">Account numbers</th>
+                                                        
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr *ngFor="let item of account">
+                                                        <td>{{item.id}}</td>
+                                                        <td>{{item.account_number}}</td>
+                                                        
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="col-8 text-right" id="loginbutton">
+                                    
+                                            <button type="submit" (click) = "onSubmit1('missing-Document')"  class="btn px-3 my-4 btn-danger">Denie</button>
+                                            <button type="submit" (click)="onSubmit('approve')" class="btn px-3 my-4 mx-3 btn-primary">Approve</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </mat-tab>
+                            <!-- <mat-tab label="Third">Content 3</mat-tab> -->
+                        </mat-tab-group>
+                    </form>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
